@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'poppins' ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:white;
+  background-color: rgb(255, 255, 255);
+}
+.container{
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+.Trusted_div{
+  background-color: rgb(38, 93, 196);
+  color: white;
+  border-top-right-radius: 8rem;
+  border-bottom-right-radius: 8rem ;
+  /* padding: 12px; */
+  
+
+}
+.Trust_tittle{
+  padding-left: 30px;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.section{
+  background-color: rgb(38, 93, 196);
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+.sponsor_img{
+  align-items: center;
+  justify-content: center;
+  row-gap: 23px;
+  width: 100%;
+  justify-content: space-between;
+}
+.sponsor_space{
+  padding-left: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.spon_div{
+  background-color: white;
+}
+li {
+  list-style: none;
+  padding-top: 10px;
+  font-size: 12px;
+  /* padding-right: 90px; */
+}
+ul{
+  padding-left: unset;
+  /* padding-bottom: 90px; */
+  /* text-align: left; */
+}
+h1{
+  font-size: 60px;
+  font-weight: 600px;
+}
+h3{
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+h4{
+  font-size:32px;
+  font-weight: 400px;
+}
+h5{
+  font-size: 30px;
+  font-weight: 400px;
+}
+h6{
+  font-size: 18px;
+  font-weight: 100;
+
+}
+.p{
+  font-size: 20px;
+  font-weight: 400px;
+}
+.pfont{
+  font-size: 15px;
+  font-weight:150px ;
+}
+
+.form-control{
+  display: inline;
+  width: 230px;
+}
+.move{
+  margin-left: 25%;
+}
+.center_sub{
+ 
+}
+.copyright{
+  font-size: 12px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65px;
+}
+
+header .logo{
+   font-size: 30px;
+}
+
+header .display-menu{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: white; */
+}
+.display-menu .menu:hover{
+  Color: #0e8ac4;
+  transition: o.3s;
+}
+.display-menu .menu{
+  padding:0 15px;
+  text-decoration: none;
+  color: rgb(3, 1, 97);
+}
+
+header .toggle{
+  display: none;
+  background-color: rgb(38, 93, 196);
+  color: white;
+  border:none;
+  font-size: 12px;
+  width: 35px;
+  text-align: center;
+  align-items: center;
+  border-radius:3px;
+}
+/* .Hero_section{
+  align-items: center;
+  justify-content: center;
+} */
+.Hsection{
+  height: 400px;
+  padding-bottom: 20px;
+  padding-top: 80px;
+}
+.btn-primary{
+  border-radius: 30px;
+}
+.hero_tittle{
+  color: #0566A1;
+  font-weight:bolder ;
+  
+}
+.hero_des{
+  color: rgb(9, 9, 75);
+  font-style: italic;
+  padding-top: 5px;
+}
+.hero_des2{
+  color:rgb(11, 129, 207) ;
+}
+.Hero_P{
+  color: black;
+  font-size: 15px;
+  font-weight: 100;
+  padding-top: 5px;
+}
+.solution_tittle{
+  color: #0566A1;
+  padding-top: 220px;
+}
+.solution_span{
+  color: #0fb0d8;
+}
+.solution_box{
+  background-color: rgb(23, 131, 255);
+  border-radius: 20px;
+  height: 640px;
+  width: 940px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-left: 208px;
+}
+.solution_card{
+  color: white;
+  padding-left: 20px;
+  background-color: #0566A1;
+  height: 320px;
+  /* border-top-left-radius: 20px; */
+}
+.black{
+  color: black;
+ padding-bottom: 0px;
+}
+.stats{ 
+  width: 800px;
+}
+.solution_card2{
+  color: #0566A1;
+  padding-left: 20px;
+  background-color: white;
+  height: 320px;
+  /* border-bottom-left-radius:20px ; */
+}
+.solution_icon{
+  padding-top:30px ;
+  padding-bottom: 30px;
+}
+
+.solution_p{
+  font-size: 15px;
+  font-weight: 100;
+}
+.Besf_sec{
+  background-color: white;
+}
+.Besf_sec2{
+  background-color: white;
+  height:200px ;
+  width:970px 
+}
+.Bestf_tittle{
+  color: rgb(38, 38, 214);
+}
+.Bestf_P{
+  color: black;
+  font-size: 15px;
+  font-weight: 100;
+}
+.core_points{
+  background-color: rgb(38, 93, 196);
+  padding-top: 60px;
+  padding-left: 90px;
+}
+.core_img{
+  width:580px ;
+  height: 534px ;
+}
+
+@media screen and (max-width: 900px){
+
+  header .display-menu {
+  position: absolute;
+  top: 70px;
+  width:100%;
+  background-color: white;
+  flex-direction: column;
+}
+
+  .display-menu .menu{
+    padding: 15px;
+  }
+
+  header .toggle{
+    display: block;
+  }
+  .solution_box{
+    margin-left: 0px;
+    width: 340px;
+  }
+  .solution_tittle{
+    padding-top: 240px;
+    padding-right: 50px;
+  }
+}
