@@ -10,10 +10,10 @@ export default function BestF() {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-7'>
-                    <h3>The Best Features Our Users Are Enjoying</h3>
+                    <h3>The Best Features Our Users<br/> Are Enjoying</h3>
                     <p className='pfont'>Find information on any topic in our Knowledge Base,
                      and receive <br/>instructions on how to get  the most out  our products.</p>
-                    <button className='learn_btn2'>See More</button>
+                    <button className='learn_btn3'>See More</button>
 
                 </div>
                 <div className='col-lg-4'>

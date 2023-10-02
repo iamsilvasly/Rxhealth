@@ -4,11 +4,11 @@ import Ds from "../assets/images/DSCF8413-2048x1365.jpg";
 export default function Cvalues() {
   return (
     <div>
-      <div className='row'>
+      <div className='row gx-0'>
         <div className='col-lg-5'>
-            <div className='core_img'>
-             <img src={Ds} width="530px" height="560px" alt="React" ></img>
-            </div>
+           
+        <img src={Ds} className='core_img' alt="React"></img>
+            
 
         </div>
         <div className='col-lg-7'>

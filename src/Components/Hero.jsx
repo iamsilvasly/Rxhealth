@@ -9,12 +9,8 @@ export default function Hero() {
     <div className='Hsection'>
                  <div className='row'>
                    <div className='col-lg-12 col-md-6 col-sm-2'>
-                    <div className='vector'>
-                      <img src={vector} alt="React" ></img>
-                      </div> 
-                      <div className='vector2'>
-                      <img src={vector2} alt="React" ></img>
-                      </div> 
+                      <img src={vector} alt="React" className='vector' ></img>
+                      <img src={vector2} className='vector2' alt="React" ></img>
                       <div className='Hero_section text-center'>
                         <h1 className='hero_tittle'>RX HEALTH INFO SYSTEMS</h1>
                         <h5 className='hero_des'>Humanizing  <span className='hero_des2'>Healthcare</span> Technology</h5>
@@ -22,49 +18,48 @@ export default function Hero() {
                          solve the<br/> real challenges that health workers and stakeholders 
                         encounter today <br/>and will face tomorrow
                         </p>
-                            <button className='btn btn-primary'>Request Demo</button>
+                            <button className='bttn'>Request Demo</button>
                       </div>
                       
                    </div>
           </div>
           <div className='container3'>
           <div className='row text-center'>
-                        <div className='col-lg-4 col-sm-2'>
-                        <div className='cflex '>
-                        <i class="fa-regular fa-square-check ic3 "></i>
-                        <div className='block '>
-                        <p className='black3'>Trusted by more than</p>
-                        <p className='black4'>20 Clients</p>
-                        </div>
-                        <div className='block'>
-                         </div>
-                </div>
-         </div>
+              <div className='col-lg-4 col-md-3'>
+                    <div className='cflex gap-1'>
+                    <i class="fa-regular fa-square-check ic5 "></i>
+                    <div className='block'>
+                    <p className='black5'>TRUSTED BY MORE THAN</p>
+                    <p className='black_client'>20 Clients</p>
+                    </div>
+                    <div className='block'>
+                    </div>
+                    </div>
+                   </div> 
                         
                         
                         <div className='col-lg-4 col-md-3'>
-                        <div className='cflex'>
-                         <i class="fa-regular fa-square-check ic3 "></i>
-                         <div className='block'>
-                         <p className='black3'>And Used By Over</p>
-                         <p className='black4'>1000 Health Facilities</p>
-                         </div>
-                         <div className='block'>
-                        </div>
-                        </div>
-                
+                          <div className='cflex gap-1'>
+                             <i class="fa-regular fa-square-check ic5 "></i>
+                               <div className='block'>
+                                <p className='black5'>And Used By Over</p>
+                                <h6 className='black_health'>1000 Health Facilities</h6>
+                               </div>
+                              <div className='block'>
+                            </div>
+                          </div>
                         </div>
                         
        <div className='col-lg-4 col-md-3'>
-          <div className='cflex '>
-            <i class="fa-regular fa-square-check ic3 "></i>
-              <div className='block'>
-                <p className='black3'>Operatin in 0ver</p>
-                <p className='black4'>4 Countries</p>
-             </div>
-                <div className='block'>
-                </div>
-                </div>
+       <div className='cflex gap-1'>
+                    <i class="fa-regular fa-square-check ic5"></i>
+                    <div className='block'>
+                    <p className='black5'>OPERATING IN OVER</p>
+                    <h6 className='black'>4 Countries</h6>
+                    </div>
+                    <div className='block'>
+                    </div>
+                    </div>
                 
             
                         </div>

@@ -20,13 +20,13 @@ export default class Trust extends Component {
         </div>
         <div className='col-lg-10 col-sm-6 spon_div'>
           <div className='sponsor_img'>
-            <img src={acacia} width="120px" height="80px" alt="React" className='sponsor_space'></img>
-            <img src={apex} width="120px" height="80px" alt="Image"  className='sponsor_space'></img>
-            <img src={metro} width="120px" height="80px" alt="React"  className='sponsor_space'></img>
-            <img src={glico} width="120px" height="80px" alt="Image" className='sponsor_space'></img>
-            <img src={nnp} width="120px" height="80px" alt="React"  className='sponsor_space'></img>
-            <img src={nmh} width="120px" height="80px" alt="Image"  className='sponsor_space'></img>
-            <img src={ace} width="120px" height="80px" alt="Image"  className='sponsor_space'></img>
+            <img src={acacia} width="100px" height="60px" alt="React" className='sponsor_space'></img>
+            <img src={apex} width="90px" height="40px" alt="Image"  className='sponsor_space'></img>
+            <img src={metro} width="90px" height="40px" alt="React"  className='sponsor_space'></img>
+            <img src={glico} width="100px" height="60px" alt="Image" className='sponsor_space'></img>
+            <img src={nnp} width="110px" height="60px" alt="React"  className='sponsor_space'></img>
+            <img src={nmh} width="100px" height="60px" alt="Image"  className='sponsor_space'></img>
+            <img src={ace} width="100px" height="60px" alt="Image"  className='sponsor_space'></img>
           </div>
     </div>
     </div>

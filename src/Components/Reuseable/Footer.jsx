@@ -8,8 +8,9 @@ function Footer() {
     <div className='container  px-4'>
             <div className="row gx-4">
               <div className="col-lg-2">
-               <div className="Logo"> <img src={logo} width="80px" height="80px"  alt="React"></img></div>
-               </div>
+               
+                   <img src={logo} className='logo' alt="React"></img></div>
+              
                 <div className="col-lg-2">
                    <h6 className="footer_Tittle">Legal</h6>
                    <ul>
