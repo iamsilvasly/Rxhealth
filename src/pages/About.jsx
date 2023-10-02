@@ -1,9 +1,15 @@
 import React from 'react'
+import  Abouthero from '../Components/Abouthero'
+import Footer from '../Components/Reuseable/Footer'
+
+
 
 const About = () => {
   return (
     <div>
-      <h1>About Us</h1>
+      
+      <Abouthero/>
+      <Footer/>
     </div>
   )
 }

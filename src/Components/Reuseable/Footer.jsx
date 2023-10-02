@@ -1,16 +1,17 @@
 import React from 'react'
+import logo from "../../assets/images/rxlogo.jpg"
 
 
 function Footer() {
   return (
-   <div className='section'> 
+   <div className='section2'> 
     <div className='container  px-4'>
             <div className="row gx-4">
               <div className="col-lg-2">
-               <div className="Logo">RX Health</div>
+               <div className="Logo"> <img src={logo} width="80px" height="80px"  alt="React"></img></div>
                </div>
                 <div className="col-lg-2">
-                   <h6 className="footer_Tittle"> Legal</h6>
+                   <h6 className="footer_Tittle">Legal</h6>
                    <ul>
                     <li>Terms & Conditions</li>
                     <li>Privacy Policy</li>
@@ -35,11 +36,11 @@ function Footer() {
                    </ul>
                 </div>
                 <div className="col-lg-4 ">
-                   <h6 className="footer_Tittle"> Subscribe to our Newsletter</h6>
+                   <h6 className="footer_Tittle"><i class="fa-regular fa-paper-plane"></i> Subscribe to our Newsletter</h6>
                    <input type='text' placeholder='Enter your email address'  class="form-control"></input>
                    <br/>
                    <br/>
-                   <button className='btn btn-primary'>Subscribe</button>
+                   <button className='learn_btn2'>Subscribe</button>
                 </div>
 
             </div>

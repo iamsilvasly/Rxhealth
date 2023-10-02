@@ -5,6 +5,8 @@ import BestF from '../Components/BestF'
 import Hero from '../Components/Hero'
 import Trust from '../Components/Trust'
 import Oursolution from '../Components/Oursolution'
+import Button from '../Components/Reuseable/Button'
+
 
 const Home = () => {
   return (
