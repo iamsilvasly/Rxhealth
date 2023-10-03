@@ -4,7 +4,7 @@ import Ds from "../assets/images/DSCF8413-2048x1365.jpg";
 export default function Cvalues() {
   return (
     <div>
-      <div className='row gx-0'>
+      <div className='row gx-0 mt-5'>
         <div className='col-lg-5'>
            
         <img src={Ds} className='core_img' alt="React"></img>

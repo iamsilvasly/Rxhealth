@@ -7,11 +7,11 @@ function Footer() {
    <div className='section2'> 
     <div className='container  px-4'>
             <div className="row gx-4">
-              <div className="col-lg-2">
+              <div className="col-lg-2 col-sm-6">
                
                    <img src={logo} className='logo' alt="React"></img></div>
               
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-sm-6">
                    <h6 className="footer_Tittle">Legal</h6>
                    <ul>
                     <li>Terms & Conditions</li>
@@ -19,7 +19,7 @@ function Footer() {
                     
                    </ul>
                 </div>   
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-sm-6">
                    <h6 className="footer_Tittle"> Useful Links</h6>
                    <ul>
                     <li>Contact</li>
@@ -27,7 +27,7 @@ function Footer() {
                     <li>Request Demo</li>
                    </ul>
                 </div>
-                <div className="col-lg-2">
+                <div className="col-lg-2 col-sm-6">
                    <h6 className="footer_Tittle"> Get In Touch</h6>
                    <ul>
                     <li>Haasto- Westland</li>
@@ -36,7 +36,7 @@ function Footer() {
                     <li>Rxhealthinfosystem.com</li>
                    </ul>
                 </div>
-                <div className="col-lg-4 ">
+                <div className="col-lg-4 col-sm-5 col-md-12 ">
                    <h6 className="footer_Tittle"><i class="fa-regular fa-paper-plane"></i> Subscribe to our Newsletter</h6>
                    <input type='text' placeholder='Enter your email address'  class="form-control"></input>
                    <br/>

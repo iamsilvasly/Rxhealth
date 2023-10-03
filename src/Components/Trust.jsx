@@ -13,12 +13,12 @@ export default class Trust extends Component {
   render() {
     return (
         <div className='row '>
-        <div className='col-lg-2 col-sm-6 Trusted_div'>
+        <div className='col-lg-4 col-sm-12  col-md-12Trusted_div'>
             <div className='textdecoration'>
               <h5 className='Trust_tittle'>Trusted by</h5>
             </div>
         </div>
-        <div className='col-lg-10 col-sm-6 spon_div'>
+        <div className='col-lg-8 col-sm-12  col-md-12 spon_div'>
           <div className='sponsor_img'>
             <img src={acacia} width="100px" height="60px" alt="React" className='sponsor_space'></img>
             <img src={apex} width="90px" height="40px" alt="Image"  className='sponsor_space'></img>

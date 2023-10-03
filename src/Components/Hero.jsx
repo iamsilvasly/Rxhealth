@@ -8,9 +8,11 @@ export default function Hero() {
   return (
     <div className='Hsection'>
                  <div className='row'>
-                   <div className='col-lg-12 col-md-6 col-sm-2'>
+                   <div className=' col-sm-12'>
+                    <div className='vector_class'>
                       <img src={vector} alt="React" className='vector' ></img>
                       <img src={vector2} className='vector2' alt="React" ></img>
+                    </div>
                       <div className='Hero_section text-center'>
                         <h1 className='hero_tittle'>RX HEALTH INFO SYSTEMS</h1>
                         <h5 className='hero_des'>Humanizing  <span className='hero_des2'>Healthcare</span> Technology</h5>
@@ -25,9 +27,9 @@ export default function Hero() {
           </div>
           <div className='container3'>
           <div className='row text-center'>
-              <div className='col-lg-4 col-md-3'>
+              <div className='col-lg-4 col-md-4 mb-3'>
                     <div className='cflex gap-1'>
-                    <i class="fa-regular fa-square-check ic5 "></i>
+                    <i class="fa-solid fa-user-group ic5"></i>
                     <div className='block'>
                     <p className='black5'>TRUSTED BY MORE THAN</p>
                     <p className='black_client'>20 Clients</p>
@@ -38,9 +40,9 @@ export default function Hero() {
                    </div> 
                         
                         
-                        <div className='col-lg-4 col-md-3'>
+                        <div className='col-lg4 col-md-4  mb-3'>
                           <div className='cflex gap-1'>
-                             <i class="fa-regular fa-square-check ic5 "></i>
+                          <i class="fa-regular fa-building ic5"></i>
                                <div className='block'>
                                 <p className='black5'>And Used By Over</p>
                                 <h6 className='black_health'>1000 Health Facilities</h6>
@@ -50,12 +52,12 @@ export default function Hero() {
                           </div>
                         </div>
                         
-       <div className='col-lg-4 col-md-3'>
+       <div className='col-lg-4 col-md-4  mb-3'>
        <div className='cflex gap-1'>
-                    <i class="fa-regular fa-square-check ic5"></i>
+                    <i class="fa-solid fa-globe ic5"></i>
                     <div className='block'>
                     <p className='black5'>OPERATING IN OVER</p>
-                    <h6 className='black'>4 Countries</h6>
+                    <h6 className='black_countries'>4 Countries</h6>
                     </div>
                     <div className='block'>
                     </div>
