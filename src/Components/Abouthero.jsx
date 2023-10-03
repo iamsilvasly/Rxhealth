@@ -41,7 +41,7 @@ export class Abouthero extends Component {
 
         {/* Message Open  */}
         <div className='row gx-0'>
-          <div className='col-lg-6'>
+          <div className='col-lg-6 col-sm-12'>
             <div className='mission_vission2'>
               <h3>Message From Management</h3>
               <p className='pfont'>At RX Health our goal is to make every solution as relevant and real<br/><br/> world relatable as possible.
@@ -51,7 +51,7 @@ export class Abouthero extends Component {
            <p><i>Gertrude Emefa Badoe</i></p>
             </div>
           </div>
-          <div className='col-lg-6'>
+          <div className='col-lg-6 col-sm-12'>
             <div className='mission_vission'> 
               <h3 className='h_mission'>Mission</h3>
               <p className='missionfont'> We aim to provide reliable and easy to use solutions<br/>that address the needs of our 
@@ -67,8 +67,11 @@ export class Abouthero extends Component {
       {/*  Open Management */}
         <div className='row gx-0'>
           <div className='col-lg-6'> 
-           <img src={emefa} alt="React" className='profile-img'></img></div>
-          <div className='col-lg-6 col-sm-6'>
+          <div className='img_card'>
+           <img src={emefa} alt="React" className='profile_img'></img>
+           </div>
+           </div>
+          <div className='col-lg-6'>
             <div className='profile'>
               <div className='profile_margin'>
               <h2>Mrs Gertrude Emefa Baidoo <i>(GM)</i></h2>
@@ -80,7 +83,7 @@ export class Abouthero extends Component {
 
 
         <div className='row gx-0'>
-          <div className='col-lg-6 col-sm-6'>
+          <div className='col-lg-6 '>
             <div className='profile'>
             <div className='profile_margin'>
               <h2>John K. Mbir <i className='iclass'>(C.T.O)</i></h2>
@@ -89,18 +92,22 @@ export class Abouthero extends Component {
             </div>
             </div>
             </div>
-            <div className='col-lg-6'>           
-              <img src={John} alt="React"  className='profile-img'></img> 
+            <div className='col-lg-6 '>
+            <div className='img_card'>           
+              <img src={John} alt="React"  className='profile_img'></img> 
+              </div>
            </div>
           
         </div>
 
 
         <div className='row gx-0'>
-          <div className='col-lg-6 col-sm-6'>
-          <img src={rich}  alt="React" className='profile-img' ></img> 
+          <div className='col-lg-6 '>
+            <div className='img_card'>
+          <img src={rich}  alt="React" className='profile_img' ></img> 
           </div>
-          <div className='col-lg-6 v'>
+          </div>
+          <div className='col-lg-6 '>
             <div className='profile'>
             <div className='profile_margin'>
               <h2>Mr Richard Edem Asravor <span><i>(C.O.O)</i></span></h2>
@@ -120,22 +127,22 @@ export class Abouthero extends Component {
 
 
         <div className='container2'>
-          <div className='row'>
-            <div className='col-lg-4'>
+          <div className='row '>
+            <div className='col-lg-4 col-sm-6'>
               <div className='profile_card'> 
                  <img src={gadri} className='profile_image' alt="React" ></img>
                 <div className='profile_name'><h5 className='blue'>Andrew Gadri</h5></div>
                 <div className='profile_post'><p className='black2'>Mobile Developer</p></div>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
             <div className='profile_card'> 
                  <img src={gadri}className='profile_image' alt="React" ></img>
                 <div className='profile_name'><h5 className='blue'>Andrew Gadri</h5></div>
                 <div className='profile_post'><p className='black2'>Mobile Developer</p></div>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
             <div className='profile_card'> 
                 <img src={gadri} className='profile_image' alt="React" ></img>
                 <div className='profile_name'><h5 className='blue'>Andrew Gadri</h5></div>
@@ -148,21 +155,21 @@ export class Abouthero extends Component {
 
         
           <div className='row '>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
               <div className='profile_card'> 
                 <img src={gadri}className='profile_image' alt="React" ></img>
                 <div className='profile_name'><h5 className='blue'>Andrew Gadri</h5></div>
                 <div className='profile_post'><p className='black2'>Mobile Developer</p></div>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
             <div className='profile_card'> 
                 <img src={gadri} className='profile_image' alt="React" ></img>
                 <div className='profile_name'><h5 className='blue'>Andrew Gadri</h5></div>
                 <div className='profile_post'><p className='black2'>Mobile Developer</p></div>
               </div>
             </div>
-            <div className='col-lg-4'>
+            <div className='col-lg-4 col-sm-6'>
             <div className='profile_card'> 
                 <img src={gadri} className='profile_image' alt="React" ></img>
                 <div className='profile_name'><h5 className='blue'>Andrew Gadri</h5></div>
