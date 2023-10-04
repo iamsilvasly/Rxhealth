@@ -9,14 +9,14 @@ export default function BestF() {
     <div className='section'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-7'>
+                <div className='col-lg-7 col-sm-12'>
                     <h3>The Best Features Our Users<br/> Are Enjoying</h3>
                     <p className='pfont'>Find information on any topic in our Knowledge Base,
                      and receive <br/>instructions on how to get  the most out  our products.</p>
                     <button className='learn_btn3'>See More</button>
 
                 </div>
-                <div className='col-lg-4'>
+                <div className='col-lg-4 col-sm-12 pr-0'>
                     <div className='Besf_sec'>
                       <div className='besf_sec2'>
                         <div className='row'>

@@ -1,13 +1,12 @@
 import React from 'react'
-import Payersolution from './Payersolution'
 
-const Solution = () => {
+const Solution= () => {
   return (
     <div>
-      <h1 className='black'>Solution</h1>
-      <Payersolution/>
+      <h1 className='blue'>Solution</h1>
     </div>
   )
 }
 
 export default Solution
+

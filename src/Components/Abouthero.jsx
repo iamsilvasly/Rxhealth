@@ -74,7 +74,7 @@ export class Abouthero extends Component {
           <div className='col-lg-6'>
             <div className='profile'>
               <div className='profile_margin'>
-              <h2>Mrs Gertrude Emefa Baidoo <i>(GM)</i></h2>
+              <h2>Mrs Gertrude Emefa Baidoo <i className='position_tittle'>(GM)</i></h2>
               <p>Currently the General Manager at Rx Health Info Systems, with an<br/> exemplary career within Health administration and customer <br/>services spanning the last 10yrs. Gertrude was the former Healthcare<br/> administrator at Foresight Medical Centre and customer relations <br/> manager at MTN, Ghana.</p>
               </div>
             </div>
@@ -83,16 +83,16 @@ export class Abouthero extends Component {
 
 
         <div className='row gx-0'>
-          <div className='col-lg-6 '>
+          <div className="col-lg-6">
             <div className='profile'>
             <div className='profile_margin'>
-              <h2>John K. Mbir <i className='iclass'>(C.T.O)</i></h2>
+              <h2>John K. Mbir <i className='position_tittle'>(C.T.O)</i></h2>
               <p>John is the Co-founder of Appnet consult and an MBA degree holder with specialization in Management Information Systems (MIS). John has astute skills in ICT especially in programming. He is an excellent and experienced Software Engineer looking to continue his career within agency side development.<br/><br/>
                John has been creating diverse and attention-catching web presence for a variety of clients across the globe for over seven years. He is currently the Chief Technology Officer (CTO) for Rx Health Info Systems, a leading IT company in the Health sector.</p>
             </div>
             </div>
             </div>
-            <div className='col-lg-6 '>
+            <div className="col-lg-6  ">
             <div className='img_card'>           
               <img src={John} alt="React"  className='profile_img'></img> 
               </div>
@@ -110,7 +110,7 @@ export class Abouthero extends Component {
           <div className='col-lg-6 '>
             <div className='profile'>
             <div className='profile_margin'>
-              <h2>Mr Richard Edem Asravor <span><i>(C.O.O)</i></span></h2>
+              <h2>Mr Richard Edem Asravor <span><i className='position_tittle'>(C.O.O)</i></span></h2>
               <p>He has vast experience in operation strategy. Richard deployed our first operation in Nigeria and Angola. He holds bachelor degree in BSc Computer Science and Management and an MBA in Management Information System from University of Ghana Business School..</p>
             </div>
             </div>
@@ -127,7 +127,7 @@ export class Abouthero extends Component {
 
 
         <div className='container2'>
-          <div className='row '>
+          <div className='row no-gutters '>
             <div className='col-lg-4 col-sm-6'>
               <div className='profile_card'> 
                  <img src={gadri} className='profile_image' alt="React" ></img>
@@ -154,7 +154,7 @@ export class Abouthero extends Component {
 
 
         
-          <div className='row '>
+          <div className='row no-gutters '>
             <div className='col-lg-4 col-sm-6'>
               <div className='profile_card'> 
                 <img src={gadri}className='profile_image' alt="React" ></img>

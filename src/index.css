@@ -25,7 +25,7 @@ body {
   padding-right: 0px;
 }
 .container3{
-  padding-top: 60px;
+  padding-top: 10px;
   padding-bottom: 90px;
   padding-left:75px ;
   padding-right:50px;
@@ -500,8 +500,11 @@ header .toggle{
   padding-left: 90px;
   height:470px;
 }
+.position_tittle{
+ font-size: 15px;
+}
 .corev_title{
-  padding-top:40px;
+  padding-top:50px;
   color: #0566A1;
 }
 .about_img{
@@ -532,7 +535,6 @@ header .toggle{
   color: #515151;
 }
 .h_vission{
- 
   margin-left: 50px;
 }
 .profile{
@@ -578,7 +580,9 @@ header .toggle{
   
   }
 @media screen and (max-width: 900px) and (min-width: 305px){
-
+.row{
+  padding-left: 0px;
+}
   header .display-menu {
   position: absolute;
   top: 70px;
@@ -635,7 +639,7 @@ header .toggle{
       top: 20px;
     }
     .Besf_sec{
-      margin-right: 30px;
+      margin-left: 0px;
       width: 365px;
     }
     .besf_sec2{
@@ -664,5 +668,31 @@ header .toggle{
       height:100%;
       object-fit:cover;
     }
+    .container2{
+      padding-left: 90px;
+    }
+    .black{
+      margin-top: 12px;
+    }
+    .mission_vission2{
+      padding-left: 10px;
+    }
+    .missionfont {
+      margin-left: 10px;
+    }
+    .h_vission  {
+      margin-left: 10px;
+    }
+    .h_mission{
+      margin-left: 10px;
+    }
+   .profile_margin {
+      margin-left: 12px;
+      margin-bottom: 50px;
+  }
+  .abu_sec {
+    padding-left: 20px;
+    height: 400px;
+}
 }
 

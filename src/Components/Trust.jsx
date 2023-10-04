@@ -13,7 +13,7 @@ export default class Trust extends Component {
   render() {
     return (
         <div className='row '>
-        <div className='col-lg-4 col-sm-12  col-md-12Trusted_div'>
+        <div className='col-lg-4 col-sm-12  col-md-12 Trusted_div'>
             <div className='textdecoration'>
               <h5 className='Trust_tittle'>Trusted by</h5>
             </div>
