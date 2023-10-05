@@ -1,15 +1,19 @@
-p{
+.pfont2{
     color: black;
     font-size: 15px;
 }
 
-h5{
+.heading{
     font-size: 20px;
     color: #0083c3;
     padding-top: 10px;
 }
 h6{
     font-size: 15px;
+}
+.container8{
+   padding-left: 100px;
+   padding-top: 40px; 
 }
 .payer_desc{
     background-color: #0083c3 ;
@@ -20,6 +24,7 @@ h6{
 .white{
     color: white;
     padding-top: 30px;
+    padding-bottom: 0px;
    
 }
 .heading_tittle{
@@ -57,7 +62,14 @@ background-color: white;
     height: 640px;
     padding-top: 80px;
 }
-
+.point{
+    padding-bottom: 25px;
+}
+.icon{
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
 .dis_bg{
     background-color: #CFE1FC; /* Changing background color */
     font-weight: bold; /* Making font bold */

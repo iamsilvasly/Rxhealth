@@ -14,7 +14,7 @@ export class Payersolution extends Component {
          <div className='row gx-0'>
             <div className='col-lg-7'>
                 <div className='payer_desc'>
-                    <h1 className='white'>Payer Solution<br/>(Rx Claim)</h1>
+                    <h3 className='white'>PAYER SOLUTION <br></br>(Rx Claim)</h3>
                     <p className='white'>We provide electronic solutions that allow all types of payers (health<br></br> insurance, TPAs, 
                     corporate bodies, donors) to reduce fraud and <br></br>
                     wastage  Also improving healthcare access, transparency and<br></br> sustainability.</p>
@@ -27,6 +27,18 @@ export class Payersolution extends Component {
                 </div>
             </div>
          </div>
+
+        <div className='container8'>
+          <div className='row'>
+            <div className='col-lg-12'>
+            <div className='dis_bg'>
+                      <p className='le_blue'>The RxClaims is Africa’s largest online to offline system which 
+                      is perfectly suited for many parts of the emerging world with unstable internet
+                      connectivity</p>
+                    </div>
+            </div>
+         </div>
+        </div>
 
 
         <div className='row text-center'>
@@ -45,8 +57,8 @@ export class Payersolution extends Component {
                     <div className='dis_bg'>
                       <p className='le_blue'>Simplicity</p>
                     </div>
-                    <h5>Enrollment</h5>
-                    <p>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
+                    <h5 className='heading'>Enrollment</h5>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
@@ -59,8 +71,8 @@ export class Payersolution extends Component {
                     <div className='dis_bg'>
                       <p className='le_blue'>Real-Time</p>
                     </div>
-                    <h5>Policy Management</h5>
-                    <p>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
+                    <h5 className='heading'>Policy Management</h5>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
@@ -86,8 +98,8 @@ export class Payersolution extends Component {
                     <div className='dis_bg'>
                       <p className='le_blue'>Security</p>
                     </div>
-                    <h5 >Risk, Benefits & Pricing</h5>
-                    <p>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
+                    <h5  className='heading'>Risk, Benefits & Pricing</h5>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
@@ -100,8 +112,8 @@ export class Payersolution extends Component {
                     <div className='dis_bg'>
                       <p className='le_blue' >Interoperability</p>
                     </div>
-                    <h5>Claims Management</h5>
-                    <p>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
+                    <h5 className='heading'>Claims Management</h5>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
@@ -127,8 +139,8 @@ export class Payersolution extends Component {
                     <div className='dis_bg'>
                       <p className='le_blue'>Notification</p>
                     </div>
-                    <h5>Payer Management</h5>
-                    <p>Electronic Member Enrolment (Online registration of members<br></br>, Bulk Excel
+                    <h5 className='heading'>Payer Management</h5>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members<br></br>, Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
@@ -141,8 +153,8 @@ export class Payersolution extends Component {
                     <div className='dis_bg'>
                       <p className='le_blue'>Access</p>
                     </div>
-                    <h5>Patient Interaction</h5>
-                    <p>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
+                    <h5 className='heading'>Patient Interaction</h5>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
@@ -165,16 +177,16 @@ export class Payersolution extends Component {
                         <div className='col-lg-12'><h3>Benefits of Rx Claim <br></br>as a Service product</h3></div>
                     </div>
                     <div className='row gx-0'>
-                        <div className='col-lg-4'><h6> <i class="fa-solid fa-chart-simple"></i> a Service product</h6></div>
-                        <div className='col-lg-4'><h6> <i class="fa-solid fa-bell"></i> a Service product</h6></div>
+                        <div className='col-lg-4'><h6 className='point'> <i class="fa-solid fa-dice-three icon"></i>Simplicity</h6></div>
+                        <div className='col-lg-4'><h6 className='point'> <i class="fa-solid fa-bell icon"></i> Notification</h6></div>
                     </div>
                     <div className='row gx-0'>
-                        <div className='col-lg-4'><h6><i class="fa-solid fa-lock"></i> a Service product</h6></div>
-                        <div className='col-lg-4'><h6><i class="fa-solid fa-qrcode"></i> a Service product</h6></div>
+                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-lock icon"></i> Security</h6></div>
+                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-qrcode icon"></i>  Access</h6></div>
                     </div>
                     <div className='row gx-0'>
-                        <div className='col-lg-4'><h6><i class="fa-solid fa-clock-rotate-left"></i> a Service product</h6></div>
-                        <div className='col-lg-4'><h6><i class="fa-solid fa-infinity"></i> a Service product</h6></div>
+                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-clock-rotate-left icon"></i> Real-Time</h6></div>
+                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-infinity icon"></i>Interoperability</h6></div>
                     </div>
                     <button className='learn_btn3'>Request Demo</button>
                 </div>

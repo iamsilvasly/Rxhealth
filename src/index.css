@@ -52,11 +52,11 @@ body {
   border-radius: 28px ;
   text-align: center;
   text-decoration: none;
-  /* border:10px; */
   color:#0180C3;
   box-shadow: none;
   background-color: transparent;
-  /* border-color: #0081C3; */
+  /* border-color:solid #0081C3; */
+  border: solid;
   padding: 2px 17px;
   font-size: 15px;
 }
@@ -70,7 +70,7 @@ body {
   text-align: center;
   text-decoration: none;
   box-shadow: none;
-  /* border: none; */
+  border:solid white;
   color:white;
   background-color: transparent;
   border-color: white;
@@ -201,6 +201,7 @@ h6{
 .copyright{
   font-size: 12px;
   padding-top: 20px;
+  color: white;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
