@@ -22,7 +22,7 @@ const Navbar = () => {
         {show &&
         <div className='display-menu'>
           <Link className='menu' to={"/"}>Home</Link>
-          <Link className='menu' to={"/solution"}>Solution</Link>
+          <Link className='menu' to={"/solutions"}>Solution</Link>
           <Link className='menu' to={"/about"}>About Us</Link>
           <Link className='menu' to={"/contact"}>Contact US</Link>
           <button className='learn_btn'>Health Blog <i class="fa-solid fa-magnifying-glass"></i></button>

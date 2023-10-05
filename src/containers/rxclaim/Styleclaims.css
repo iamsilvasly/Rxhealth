@@ -1,0 +1,84 @@
+p{
+    color: black;
+    font-size: 15px;
+}
+
+h5{
+    font-size: 20px;
+    color: #0083c3;
+    padding-top: 10px;
+}
+h6{
+    font-size: 15px;
+}
+.payer_desc{
+    background-color: #0083c3 ;
+    height: 340px;
+    padding-left: 20px;
+}
+
+.white{
+    color: white;
+    padding-top: 30px;
+   
+}
+.heading_tittle{
+    color: #0566A1;
+    padding-top: 120px;
+  }
+  .heading_span{
+    color: #0fb0d8;
+  }
+.le_blue{
+  color:#1E8FC9;
+  font-size: 13px;
+}
+.Feature_img{
+height: 450px;
+background-color: white;
+}
+.Feature_img{
+height: 450px;
+background-color: white;
+}
+.feature_dis{
+    margin-left: 30px;
+    padding-top: 150px;
+}
+.feature_pic{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.benfit_sec{
+    background-color: #0083c3 ;
+    height: 450px;
+    padding-left: 90px;
+    height: 640px;
+    padding-top: 80px;
+}
+
+.dis_bg{
+    background-color: #CFE1FC; /* Changing background color */
+    font-weight: bold; /* Making font bold */
+    border-radius: 20px; /* Making border radius */
+    width: fit-content; /* Making auto-sizable width */
+    height: 30px; /* Making auto-sizable height */
+    padding: 5px 10px 5px 10px; /* Making space around letters */
+    
+}
+
+.feat{
+    margin-top: 90000px ;
+}
+@media screen and (max-width: 900px) and (min-width: 305px){
+
+    .payer_desc{
+       
+        height: 420px;
+        padding-left: 10px;
+    }
+    h3{
+        font-size: 30px;
+    }
+}
