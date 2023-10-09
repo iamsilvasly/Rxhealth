@@ -41,6 +41,11 @@ export class Payersolution extends Component {
         </div>
 
 
+        <div className='row'>
+            
+        </div>
+
+
         <div className='row text-center'>
             <div className='col-lg-12'><h3 className='heading_tittle'>Features of <span className='heading_span'>Rx Claim </span></h3></div>
         </div>

@@ -7,6 +7,8 @@ import About from './pages/About';
 import Solution from './pages/Solution';
 import Contact from './pages/Contact';
 import Navbar from './Components/Reuseable/Navbar';
+import Healthblog from './pages/Healthblog';
+
 
 function App() {
   return (<>
@@ -16,8 +18,9 @@ function App() {
           <Route path="/solutions" element={<Solution/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
-          
+          <Route path="/healthblog" element={<Healthblog/>}/>
     </Routes>
+    {/* <Footer/> */}
     </>
   //   <div className='app'>
   //     <Button style={{backgroundColor:'blue',color:'white', border: '1px solid blue',borderRadius: '50px'}}>Request Demo</Button>

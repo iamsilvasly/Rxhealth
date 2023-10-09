@@ -5,6 +5,7 @@ import { useState } from 'react';
 import logo from "../../assets/images/rxlogo.jpg"
 
 
+
 const Navbar = () => {
     const [show,setShow] =useState(true)
 
@@ -12,8 +13,7 @@ const Navbar = () => {
         setShow (current=>!current)
     }
   
-  
-    return (
+return (
     <div>
       <header>
         <div className='logo'>
@@ -25,7 +25,9 @@ const Navbar = () => {
           <Link className='menu' to={"/solutions"}>Solution</Link>
           <Link className='menu' to={"/about"}>About Us</Link>
           <Link className='menu' to={"/contact"}>Contact US</Link>
-          <button className='learn_btn'>Health Blog <i class="fa-solid fa-magnifying-glass"></i></button>
+          <Link to="/healthblog"> 
+           <button className='learn_btn'>Health Blog <i class="fa-solid fa-magnifying-glass"></i></button>
+           </Link>
         </div>
         }
         <button onClick={handleShow} className='toggle'><MenuIcon/></button>

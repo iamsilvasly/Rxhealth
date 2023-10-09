@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from '../Components/Reuseable/Footer'
+import Details from '../containers/contactus/Details'
+
 
 const Contact = () => {
   return (
     <div>
-      <h1 className='blue'>Contact</h1>
+      <Details/>
+      <Footer/>
     </div>
   )
 }
