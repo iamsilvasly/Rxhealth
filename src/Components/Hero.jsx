@@ -26,7 +26,7 @@ export default function Hero() {
                    </div>
           </div>
           <div className='container3'>
-          <div className='row text-center'>
+          <div className='row text-center py-5'>
               <div className='col-lg-4 col-md-4 mb-3'>
                     <div className='cflex gap-1'>
                     <i class="fa-solid fa-user-group ic5"></i>

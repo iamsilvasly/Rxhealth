@@ -19,14 +19,40 @@ export default function BestF() {
                 <div className='col-lg-4 col-sm-12 pr-0'>
                     <div className='Besf_sec'>
                       <div className='besf_sec2'>
-                        <div className='row'>
-                          <div className='col-lg-12'> <FaChalkboardTeacher size='40px'/></div>
-                          <div className='col-lg-12'></div>
+                        
+                        <div className='besf_icon'>
+                          < FiAirplay size='55px'/>
+                          <div className='besf_block'>
+                          <h6 className='Bestf_tittle'>Reliability</h6>
+                          <p className='Bestf_P bl'>Knowledge base and recieve</p>
+                          </div>
                         </div>
-                      <h6 className='Bestf_tittle'> <FaChalkboardTeacher size='40px'/> Reliability</h6><p className='Bestf_P bl'>Knowledge base and recieve</p>
-                      <h6 className='Bestf_tittle'><FiAirplay size='40px'/>Tracking</h6><p className='Bestf_P'>Knowledge base and recieve</p>
-                      <h6 className='Bestf_tittle'><BiTargetLock size='40px'/>Training</h6><p className='Bestf_P'>Knowledge base and recieve</p>
-                      <h6 className='Bestf_tittle'><BiSupport size='40px'/>Support</h6><p className='Bestf_P'>Knowledge base and recieve</p>
+
+                        <div className='besf_icon'>
+                          <BiTargetLock size='55px'/>
+                          <div className='besf_block'>
+                          <h6 className='Bestf_tittle'>Tracking</h6>
+                          <p className='Bestf_P bl'>Knowledge base and recieve</p>
+                          </div>
+                        </div>
+
+                        <div className='besf_icon'>
+                          < FaChalkboardTeacher  size='55px'/>
+                          <div className='besf_block'>
+                          <h6 className='Bestf_tittle'>Training</h6>
+                          <p className='Bestf_P bl'>Knowledge base and recieve</p>
+                          </div>
+                        </div>
+
+                        <div className='besf_icon'>
+                          <BiSupport size='55px'/>
+                          <div className='besf_block'>
+                          <h6 className='Bestf_tittle'>Support</h6>
+                          <p className='Bestf_P bl'>Knowledge base and recieve</p>
+                          </div>
+                        </div>
+                     
+                      
                       </div>
                     </div>
                     

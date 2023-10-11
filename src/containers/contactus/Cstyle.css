@@ -41,6 +41,15 @@
     margin-left: 260px;
     padding-top: 20px;
 }
+.right_img2{
+    position:absolute;
+    height: 870px;
+    width: 179px;
+    top: -400px;
+    bottom: -250px;
+    right: 5px;
+    object-fit: contain;
+}
 
 @media screen and (max-width: 900px){
     .form-row{

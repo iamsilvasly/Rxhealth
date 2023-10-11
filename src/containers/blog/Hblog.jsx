@@ -2,12 +2,18 @@ import React, { Component } from 'react'
 import "../blog/Blogstyle.css"
 import watch from "../../assets/images/Rectangle 96.png";
 import fruit from '../../assets/images/fruits.png';
+import left from '../../assets/images/lefts.png'
+import right from '../../assets/images/rigths.png';
 
 export class Hblog extends Component {
   render() {
     return (
       <div>
+         <div className='lefts'>
+        <img src={left}  alt="React" className='left_img'></img>
+        </div>
         <div className='row'>
+         
             <div className='col-lg-12 text-center '>
                 <div className='blog_title'>
                     <h3>Blog</h3>
@@ -16,8 +22,8 @@ export class Hblog extends Component {
         </div>
 
         <div className='container22'>
-            <div className='row'>
-                <div className='col-lg-4 py-5'>
+            <div className='row gx-0 py-4'>
+                <div className='col-lg-4 py-4'>
                     <p className='blue'>Tech <i class="fa-solid fa-circle techicon"></i></p>
                     <h2 className='blue'>Health tech taking over</h2>
                     <p className='author'>Story by Bagna</p>
@@ -36,7 +42,7 @@ export class Hblog extends Component {
 
         <div className='conainer22'>
             <div className='row'>
-                <div className='col-lg-6'>
+                <div className='col-lg-4 col-sm-12'>
                     <div className='inline2'>
                    <div className='dis_bg'>
                       <p className='le_blue'>All</p>
@@ -52,8 +58,10 @@ export class Hblog extends Component {
                     </div>
                     </div>
                 </div>
-                <div className='col-lg-6'>
-                <input type="text" class="form-control" id="inputName4" placeholder="Search"></input>
+                <div className='col-lg-7 col-sm-12'>
+                <div className='search_pad'>
+                <input type="text" class="search_control" id="inputName4" placeholder="Search" ></input>
+                </div>
                 </div>
             </div>
         </div>
@@ -144,6 +152,23 @@ export class Hblog extends Component {
               </div> 
             
             </div>
+        </div>
+
+        <div className='Page_section'>
+            <ul className='Number_section'>
+                <i class="fa-solid fa-circle-chevron-left ic"></i>
+                <button className='Numbs'>1</button>
+                <button className='Numbs'>2</button>
+                <button className='Numbs'>3</button>
+                <button className='Numbs'>4</button>
+                <button className='Numbs'>5</button>
+                <i class="fa-solid fa-circle-chevron-right ic"></i>
+            </ul>
+
+        </div>
+        
+        <div className='right'>
+        <img src={right}  alt="React" className='right_img'></img>
         </div>
         
       </div>

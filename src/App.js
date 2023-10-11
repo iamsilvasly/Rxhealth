@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import {Route, Routes } from 'react-router-dom'
 // import Footer from './Components/Reuseable/Footer';
 // import Button from './Components/Reuseable/Button';
 import Home from "./pages/Home";
@@ -13,6 +13,7 @@ import Healthblog from './pages/Healthblog';
 function App() {
   return (<>
     <Navbar/>
+    
     <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/solutions" element={<Solution/>}/>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/healthblog" element={<Healthblog/>}/>
     </Routes>
+   
     {/* <Footer/> */}
     </>
   //   <div className='app'>

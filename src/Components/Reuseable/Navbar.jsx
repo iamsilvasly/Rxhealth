@@ -17,7 +17,7 @@ return (
     <div>
       <header>
         <div className='logo'>
-        <img src={logo} width="50px" height="50px" alt="React"></img>
+        <img src={logo} className='logo2' alt="React"></img>
         </div>
         {show &&
         <div className='display-menu'>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../contactus/Cstyle.css'
+import right from '../../assets/images/rigths.png';
 
 export class Details extends Component {
   render() {
@@ -19,17 +20,17 @@ export class Details extends Component {
                         
                 <form>
                             <div class="form-row">
-                                <div class="form-group col-md-4 col-sm-12">
+                                <div class="form-group col-lg-4 col-md-4 col-sm-12">
                                 <label for="inputEmail4">Name</label>
                                 <input type="text" class="form-control2" id="inputName4" placeholder="Name"></input>
                                 </div>
-                                <div class="form-group col-md-4 col-sm-12">
+                                <div class="form-group col-lg-4 col-md-4 col-sm-12">
                                 <label for="inputEmail">Email</label>
                                 <input type="email" class="form-control2" id="inputEail4" placeholder="Email"></input>
                                 </div>
-                                <div class="form-group col-md-4 col-sm-12">
+                                <div class="form-group col-lg-4 col-md-4 col-sm-12">
                                 <label for="inputNumber">Contact</label>
-                                <input type="number" class="form-control2" id="inputAddress" placeholder="Contact"></input>
+                                <input type="int" class="form-control2" id="inputAddress" placeholder="Contact"></input>
                                 </div>
                             </div>
                         
@@ -105,11 +106,16 @@ export class Details extends Component {
                              </div>  
                             <div className='button-send'>
                              <button type="submit" class="btn btn-primary my-">Send</button>
+                             
+                             <div className='right'>
+                                <img src={right}  alt="React" className='right_img2'></img>
+                            </div>
                             </div>
 
                             </form>
-
+                           
                 </div>
+               
             </div>
         </div>
       </div>

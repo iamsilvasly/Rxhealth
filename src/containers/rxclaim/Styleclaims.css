@@ -29,7 +29,7 @@ h6{
 }
 .heading_tittle{
     color: #0566A1;
-    padding-top: 120px;
+    padding-top: 60px;
   }
   .heading_span{
     color: #0fb0d8;
@@ -79,6 +79,63 @@ background-color: white;
     padding: 5px 10px 5px 10px; /* Making space around letters */
     
 }
+.dis_bg2{
+    background-color: #CFE1FC; /* Changing background color */
+    font-weight: bold; /* Making font bold */
+    border-radius: 20px; /* Making border radius */
+    width: fit-content; /* Making auto-sizable width */
+    height: 30px; /* Making auto-sizable height */
+    padding: 5px 10px 5px 10px; /* Making space around letters */
+    
+}
+.claim_ic{
+    font-size:90px
+}
+.number_heading{
+    margin-left: 10px;
+    padding-top: 0px;
+    font-weight: bold;
+}
+.container40{
+    padding-top: 40px;
+    padding-left: 300px;
+    padding-right: 0px;
+    
+}
+.claims_icon{
+    display: flex;
+    color: #0083c3;
+   
+}
+.claims_number{
+    display: block;
+    
+}
+.claims_p{
+    font-size: 13px;
+    color: black;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    padding-top: 5px;
+}
+.right_img4{
+    position:absolute;
+    height: 670px;
+    width: 159px;
+    top: -400px;
+    bottom: -280px;
+    right: -609px;
+    object-fit: contain;
+  }
+  .right_img5{
+    position:absolute;
+    height: 670px;
+    width: 179px;
+    top: -400px;
+    bottom: -250px;
+    right: 2px;
+    object-fit: contain;
+  }
 
 .feat{
     margin-top: 90000px ;
@@ -93,4 +150,26 @@ background-color: white;
     h3{
         font-size: 30px;
     }
+    .container8{
+        padding-left: 0px;
+        padding-top: 40px; 
+     }
+    .container40{
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .dis_bg2{
+        height: 50px;
+    }
+   .right_img4 {
+        position: absolute;
+        height: 106px;
+        width: 159px;
+        top: -128px;
+        bottom: -22px;
+        right: -5px;
+        object-fit: contain;
+   }
 }

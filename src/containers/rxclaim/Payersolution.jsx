@@ -6,6 +6,8 @@ import pay from "../../assets/images/rupixen-com-Q59HmzK38eQ-unsplash.jpg"
 import patient from "../../assets/images/patient.png"
 import risk from "../../assets/images/risk.png"
 import claim from "../../assets/images/claim 1.png"
+import aboutright from '../../assets/images/aboutright.png'
+import claimsright from '../../assets/images/claimssil.png'
 
 export class Payersolution extends Component {
   render() {
@@ -20,6 +22,9 @@ export class Payersolution extends Component {
                     wastage  Also improving healthcare access, transparency and<br></br> sustainability.</p>
                     <button className='learn_btn3'>Request Demo</button>
                 </div>
+                <div className='right'>
+                                <img src={aboutright}  alt="React" className='right_img5'></img>
+               </div>
             </div>
             <div className='col-lg-5'>
                 <div className='payer_img'>
@@ -31,7 +36,7 @@ export class Payersolution extends Component {
         <div className='container8'>
           <div className='row'>
             <div className='col-lg-12'>
-            <div className='dis_bg'>
+            <div className='dis_bg2'>
                       <p className='le_blue'>The RxClaims is Africa’s largest online to offline system which 
                       is perfectly suited for many parts of the emerging world with unstable internet
                       connectivity</p>
@@ -40,11 +45,30 @@ export class Payersolution extends Component {
          </div>
         </div>
 
-
-        <div className='row'>
+        <div className='container40'>
+        <div className='row gx-0'>
+            <div className='col-lg-4 col-md-6'>
+                <div className='claims_icon'>
+                  <i class="fa-solid fa-file-lines claim_ic"></i> 
+                   <div className='claims_number'>
+                    <p className='claims_p'>No of processsed Claims</p>
+                    <h3 className='number_heading'>5 M +</h3>
+                   </div>
+                </div>   
+            </div>
             
-        </div>
+            <div className='col-lg-4 col-md-6'>
+                <div className='claims_icon'>
+                   <i class="fa-solid fa-money-bill-1 claim_ic"></i>
+                   <div className='claims_number'>
+                    <p className='claims_p'>Amount of processsed Claims</p>
+                    <h3 className='number_heading'>100 M +</h3>
+                   </div>
+                </div>   
+            </div>
 
+        </div>
+        </div>
 
         <div className='row text-center'>
             <div className='col-lg-12'><h3 className='heading_tittle'>Features of <span className='heading_span'>Rx Claim </span></h3></div>
@@ -81,6 +105,9 @@ export class Payersolution extends Component {
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
+                <div className='right'>
+                                <img src={claimsright}  alt="React" className='right_img4'></img>
+               </div>
             </div>
             <div className='col-lg-6'>
                 <div className='Feature_img'>
@@ -108,6 +135,7 @@ export class Payersolution extends Component {
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
+                
             </div>
         </div>
 
@@ -122,12 +150,16 @@ export class Payersolution extends Component {
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
+                <div className='right'>
+                                <img src={claimsright}  alt="React" className='right_img4'></img>
+               </div>
             </div>
             <div className='col-lg-6'>
                 <div className='Feature_img'>
                 <img src={claim} alt="React" className='feature_pic'></img>
                 </div>
             </div>
+            
         </div>
 
 
@@ -148,7 +180,11 @@ export class Payersolution extends Component {
                     <p className='pfont2'>Electronic Member Enrolment (Online registration of members<br></br>, Bulk Excel
                     upload of members and single member registration)Member<br></br> management (Status,
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
+               
                 </div>
+                <div className='right'>
+                                <img src={claimsright}  alt="React" className='right_img4'></img>
+               </div>
             </div>
         </div>
 
@@ -169,6 +205,7 @@ export class Payersolution extends Component {
                 <img src={patient} alt="React" className='feature_pic'></img>
                 </div>
             </div>
+            
         </div>
 
         <div className='row gx-0'>
