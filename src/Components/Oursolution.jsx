@@ -1,5 +1,5 @@
 import React from 'react'
-import sil from "../assets/images/Silhoutte.png"
+import sil from "../assets/images/os.png"
 
 export default function Oursolution() {
   return (
@@ -19,10 +19,10 @@ export default function Oursolution() {
                               <p className='pfont'>We provide electronic solutions that
                                 allow all  types of payers</p></div>
                                 <button className='learn_btn2'>Learn More</button>
-                                {/* <div className='silh'>
-                                <img src={sil} alt="React"  ></img>
-                                </div> */}
                     </div>
+                                <div className='rigth'>
+                                <img src={sil} alt="React" className='right_img99' ></img>
+                                </div>
                 </div>
                 <div className='col-md-4  col-sm-12'>
                 <div className='solution_card2'>
@@ -30,8 +30,11 @@ export default function Oursolution() {
                         <div><h5>Patient Solution<br/>(Healthker)</h5>
                               <p className='pfont'>We provide electronic solutions that
                                 allow all  types of payers</p></div>
-                                <button className='learn_btn'>Learn More</button>
+                                <button className='learn_btn'>Learn More</button>      
                     </div>
+                                <div className='rigth'>
+                                <img src={sil} alt="React" className='right_img98' ></img>
+                                </div>
                 </div>
                 <div className='col-md-4 col-sm-12 '>
                 <div className='solution_card3'>
@@ -39,8 +42,11 @@ export default function Oursolution() {
                         <div><h5>Provider Solution<br/>(Rx Hopes)</h5>
                               <p className='pfont'>We provide electronic solutions that
                                 allow all  types of payers</p></div>
-                                <button className='learn_btn2'>Learn More</button>
+                                <button className='learn_btn2'>Learn More</button>        
                     </div>
+                                <div className='rigth'>
+                                <img src={sil} alt="React" className='right_img97' ></img>
+                                </div>
                 </div>
             </div>
             <div className='row gx-0'>
@@ -50,7 +56,11 @@ export default function Oursolution() {
                               <p className='pfont'>We provide electronic solutions that
                                 allow all  types of payers</p></div><br/>
                                 <button className='learn_btn'>Learn More</button>
-                    </div></div>
+                    </div>
+                                <div className='rigth'>
+                                <img src={sil} alt="React" className='right_img96' ></img>
+                                </div>
+                    </div>
                 <div className='col-md-4 col-sm-12'>
                 <div className='solution_card'>
                         <div className='solution_icon'><i class="fas fa-chart-line ic2"></i></div>

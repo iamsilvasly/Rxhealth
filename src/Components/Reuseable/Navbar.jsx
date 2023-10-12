@@ -1,37 +1,96 @@
-import React from 'react'
+// import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
 import logo from "../../assets/images/rxlogo.jpg"
+import Dropdown from './Dropdown';
+import './Navbar.css';
 
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
-const Navbar = () => {
-    const [show,setShow] =useState(true)
-
-    const handleShow = () =>{
-        setShow (current=>!current)
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
     }
-  
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
+
+
 return (
     <div>
-      <header>
-        <div className='logo'>
+     <nav className='navbar'>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
         <img src={logo} className='logo2' alt="React"></img>
+         
+        </Link>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        {show &&
-        <div className='display-menu'>
-          <Link className='menu' to={"/"}>Home</Link>
-          <Link className='menu' to={"/solutions"}>Solution</Link>
-          <Link className='menu' to={"/about"}>About Us</Link>
-          <Link className='menu' to={"/contact"}>Contact US</Link>
-          <Link to="/healthblog"> 
-           <button className='learn_btn'>Health Blog <i class="fa-solid fa-magnifying-glass"></i></button>
-           </Link>
-        </div>
-        }
-        <button onClick={handleShow} className='toggle'><MenuIcon/></button>
-      </header>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              Home
+            </Link>
+          </li>
+          <li
+            className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <Link
+              to='/solutions'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Solution<i className='fas fa-caret-down' />
+            </Link>
+            {dropdown && <Dropdown/>}
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/about'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              About Us
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/contact'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Contact Us
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link
+              to='/healthblog'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Health Blog
+            </Link>
+          </li>
+          
+        </ul>
+        
+      </nav>
     </div>
   )
 }

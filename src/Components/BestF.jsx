@@ -3,6 +3,7 @@ import { FaChalkboardTeacher } from "react-icons/fa";
 import {FiAirplay } from "react-icons/fi";
 import { BiTargetLock } from "react-icons/bi";
 import { BiSupport } from "react-icons/bi";
+import homeright from '../assets/images/home.png';
 
 export default function BestF() {
   return (
@@ -53,6 +54,9 @@ export default function BestF() {
                         </div>
                      
                       
+                      </div>
+                      <div className='right'>
+                          <img src={homeright}  alt="React" className='right_img9'></img>
                       </div>
                     </div>
                     

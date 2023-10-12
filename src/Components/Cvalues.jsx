@@ -1,5 +1,6 @@
 import React from 'react'
 import Ds from "../assets/images/DSCF8413-2048x1365.jpg";
+import homeright from '../assets/images/home.png';
 
 export default function Cvalues() {
   return (
@@ -54,7 +55,9 @@ export default function Cvalues() {
                 <div className='block'>
                 </div>
                 </div>
-                
+                <div className='right'>
+                          <img src={homeright}  alt="React" className='right_img9'></img>
+                      </div>
                 
                 
                 

@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  scroll-behavior:smooth;
   box-sizing: border-box;
   min-height: 100%;
   font-family: 'poppins' ;
@@ -268,18 +269,17 @@ header .toggle{
 }
 .vector{
   position:absolute;
-  height:550px ;
+  height:350px ;
   width:250px ;
-  bottom: -90px;
-  top:1px;
+  top:-35px;
   right: 0px;
 }
 .vector2{
   position:absolute;
-  height:500px ;
+  height:350px ;
   width:250px ;
-  bottom: 60px;
-  top: 1px;
+  /* bottom: 60px; */
+  top: -35px;
   left: 0px;
 }
 .vector_class {
@@ -562,6 +562,13 @@ header .toggle{
   padding-top: 60px;
   height: 450px;
 }
+.profile_post{
+  padding-top: 1px;
+}
+.profile_name{
+  padding-top: 10px;
+}
+  
 .profile_image{
   /* padding-bottom: 800px; */
   height: 12rem;
@@ -599,7 +606,47 @@ header .toggle{
   right: 2px;
   object-fit: contain;
 }
+.right_img9  {
+    position:absolute;
+    height: 970px;
+    width: 179px;
+    top: -450px;
+    bottom: -250px;
+    right: 8px;
+    object-fit: contain;
   
+}
+.right_img99{
+
+  position:absolute;
+  height: 100px;
+  width: 179px;
+  /* top: 840px; */
+  bottom: -370px;
+  left: 300px;
+  object-fit: contain;
+}
+.right_img98{
+  position:absolute;
+  height: 100px;
+  width: 179px;
+  top: 860px;
+  left: 630px;
+  object-fit: contain;
+}
+.right_img97{
+  position:absolute;
+  height: 100px;
+  width: 129px;
+  top: 860px;
+  left: 960px;
+}
+.right_img96{
+  display: none;
+}
+
+
+
   
 @media screen and (max-width: 900px) and (min-width: 305px){
 .row{
@@ -716,6 +763,15 @@ header .toggle{
     padding-left: 20px;
     height: 400px;
 }
+.right_img99 {
+  position: absolute;
+  height: 100px;
+  width: 179px;
+  bottom: -340px;
+  left: 250px;
+  object-fit: contain;
+}
+
 }
 
 @media screen and (max-width: 9000px) and (min-width: 820px){

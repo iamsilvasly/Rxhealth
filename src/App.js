@@ -8,7 +8,12 @@ import Solution from './pages/Solution';
 import Contact from './pages/Contact';
 import Navbar from './Components/Reuseable/Navbar';
 import Healthblog from './pages/Healthblog';
-
+import Crm from './pages/Crm'
+import Patient from './pages/Patient'
+import Insigth from './pages/Insigth'
+import Developer from './pages/Developer'
+import Provider from './pages/Provider'
+import Payer from './pages/Payer'
 
 function App() {
   return (<>
@@ -20,6 +25,12 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/healthblog" element={<Healthblog/>}/>
+          <Route path="/payer" element={<Payer/>}/>
+          <Route path="/patient" element={<Patient/>}/>
+          <Route path="/provider" element={<Provider/>}/>
+          <Route path="/crm" element={<Crm/>}/>
+          <Route path="/insigth" element={<Insigth/>}/>
+          <Route path="/developerer" element={<Developer/>}/>
     </Routes>
    
     {/* <Footer/> */}
