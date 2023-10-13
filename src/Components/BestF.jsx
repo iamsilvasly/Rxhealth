@@ -22,7 +22,9 @@ export default function BestF() {
                       <div className='besf_sec2'>
                         
                         <div className='besf_icon'>
-                          < FiAirplay size='55px'/>
+                        <div className='besf_icon2'>
+                          < FiAirplay size='55px' className='Ficon'/>
+                          </div>
                           <div className='besf_block'>
                           <h6 className='Bestf_tittle'>Reliability</h6>
                           <p className='Bestf_P bl'>Knowledge base and recieve</p>
@@ -30,7 +32,9 @@ export default function BestF() {
                         </div>
 
                         <div className='besf_icon'>
-                          <BiTargetLock size='55px'/>
+                          <div className='besf_icon2'>
+                          <BiTargetLock size='55px' className='Ficon'/>
+                          </div>
                           <div className='besf_block'>
                           <h6 className='Bestf_tittle'>Tracking</h6>
                           <p className='Bestf_P bl'>Knowledge base and recieve</p>
@@ -38,7 +42,9 @@ export default function BestF() {
                         </div>
 
                         <div className='besf_icon'>
-                          < FaChalkboardTeacher  size='55px'/>
+                          <div className='besf_icon2'>
+                          <FaChalkboardTeacher  size='55px'/>
+                          </div>
                           <div className='besf_block'>
                           <h6 className='Bestf_tittle'>Training</h6>
                           <p className='Bestf_P bl'>Knowledge base and recieve</p>
@@ -46,7 +52,9 @@ export default function BestF() {
                         </div>
 
                         <div className='besf_icon'>
-                          <BiSupport size='55px'/>
+                          <div className='besf_icon2'>
+                          <BiSupport size='55px' className='Ficon'/>
+                          </div>
                           <div className='besf_block'>
                           <h6 className='Bestf_tittle'>Support</h6>
                           <p className='Bestf_P bl'>Knowledge base and recieve</p>

@@ -34,11 +34,11 @@ export class Abouthero extends Component {
         </div>
         <div className='container3'>
         <div className='row'>
-          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-lightbulb ic"></i>Innovative</h5></div>
-          <div className='col-lg-2 col-md-6'><h5 className='black'> <i class="fa-solid fa-user-group ic"></i>Team Work</h5></div>
-          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-thumbs-up ic"></i>Integrity</h5></div>
-          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-user-shield ic"></i>Discipline</h5></div>
-          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-helmet-safety ic"></i>Hard Work</h5></div>
+          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-lightbulb ic icbg"></i>Innovative</h5></div>
+          <div className='col-lg-2 col-md-6'><h5 className='black'> <i class="fa-solid fa-user-group ic icbg"></i>Team Work</h5></div>
+          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-thumbs-up ic icbg"></i>Integrity</h5></div>
+          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-user-shield ic icbg"></i>Discipline</h5></div>
+          <div className='col-lg-2 col-md-6'><h5 className='black'><i class="fa-solid fa-helmet-safety ic icbg"></i>Hard Work</h5></div>
           </div>
         </div>
 

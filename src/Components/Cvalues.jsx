@@ -16,7 +16,7 @@ export default function Cvalues() {
             <div className='core_points'>
                 <h3>Core Values</h3>
                 <div className='cflex gap-4'>
-                <i class="fa-regular fa-square-check ic2 "></i>
+                <i class="fa-regular fa-square-check ic2  "></i>
                 <div className='block'>
                 <h6>Innovative</h6>
                 <p>Knowledge base and recieve</p>

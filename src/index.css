@@ -6,14 +6,13 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  scroll-behavior:smooth;
   box-sizing: border-box;
   min-height: 100%;
   font-family: 'poppins' ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background-color:white ;/*#F1F3F6 */
+  background-color:#F1F3F6  ;/*#F1F3F6 */
 }
 .container{
   padding-top: 90px;
@@ -421,14 +420,33 @@ header .toggle{
   border-radius: 5px;
 }
 .icbg {
-  width: 40px; /* Adjust the width and height as needed */
-  height: 40px;
+  width: 49px; /* Adjust the width and height as needed */
+  height: 52px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #CFE1FC;
   border-radius: 5px;
   overflow: hidden;
+  display:  inline;
+  margin-right: 10px;
+}
+.ic_bg3{
+  justify-content: center;
+    align-items: center;
+    background-color: #CFE1FC;
+    border-radius: 5px;
+    height: 50px;
+    width: 55px;
+}
+.fa-user-group{
+  padding-top: 4px;
+} 
+.fa-building{
+  padding-top: 4px;
+}
+.fa-globe{
+  padding-top: 4px;
 }
 .ic3{
   font-size: 50px;
@@ -481,6 +499,14 @@ header .toggle{
   display: flex;
   color: #0081C3;
 }
+.besf_icon2{
+  justify-content: center;
+  align-items: center;
+  background-color: #CFE1FC;
+  border-radius: 5px;
+  height: 56px;
+  width: 60px;
+}
 .besf_block{
   display: block;
 }
@@ -491,6 +517,9 @@ header .toggle{
   font-weight: 100;
   margin-left: 10px;
  
+}
+.Ficon{
+  margin-left: 3px;
 }
 .core_points{
   background-color: #0180C3;
@@ -531,6 +560,9 @@ header .toggle{
   width:100% ;
   height: 100% ;
   object-fit: cover;
+}
+.values{
+  display: inline;
 }
 .mission_vission{
   background-color: white;
@@ -578,8 +610,8 @@ header .toggle{
 }
 .profile_img{
   width: 100%;
-  height:76vh;
-  object-fit:top;
+  height:100%;
+  object-fit:cover;
 }
 .profile_margin{
   margin-left: 40px;
@@ -590,9 +622,11 @@ header .toggle{
   justify-content: center;
 }
 .img_card{
-  
+  width: 100%;
+  height: 450px;
   align-items: center;
   justify-content: center;
+  object-fit:top;
 }
 .layout{
   display: inline-flex;
@@ -771,6 +805,17 @@ header .toggle{
   left: 250px;
   object-fit: contain;
 }
+
+.right_img98{
+ display: none;
+}
+.right_img97{
+  display: none;
+}
+.right_img96{
+  display: none;
+}
+
 
 }
 

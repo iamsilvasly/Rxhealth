@@ -140,6 +140,31 @@ background-color: white;
 .feat{
     margin-top: 90000px ;
 }
+.ic_bg{
+    justify-content: center;
+    align-items: center;
+    background-color: #CFE1FC;
+    border-radius: 5px;
+    height: 100px;
+    width: 80px;
+}
+.ic_bg2{
+    justify-content: center;
+    align-items: center;
+    background-color: #CFE1FC;
+    border-radius: 5px;
+    height: 85px;
+    width: 110px;
+}
+.fa-money-bill-1{
+    font-size: 87px;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+.fa-file-lines{
+    padding-left: 7px;
+    padding-top: 4px;
+}
 @media screen and (max-width: 900px) and (min-width: 305px){
 
     .payer_desc{

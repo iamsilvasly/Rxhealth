@@ -29,7 +29,9 @@ export default function Hero() {
           <div className='row text-center py-5'>
               <div className='col-lg-4 col-md-4 mb-3'>
                     <div className='cflex gap-1'>
+                      <div className='ic_bg3'>
                     <i class="fa-solid fa-user-group ic5"></i>
+                    </div>
                     <div className='block'>
                     <p className='black5'>TRUSTED BY MORE THAN</p>
                     <p className='black_client'>20 Clients</p>
@@ -42,7 +44,9 @@ export default function Hero() {
                         
                         <div className='col-lg4 col-md-4  mb-3'>
                           <div className='cflex gap-1'>
+                          <div className='ic_bg3'>
                           <i class="fa-regular fa-building ic5"></i>
+                          </div>
                                <div className='block'>
                                 <p className='black5'>And Used By Over</p>
                                 <h6 className='black_health'>1000 Health Facilities</h6>
@@ -54,7 +58,9 @@ export default function Hero() {
                         
        <div className='col-lg-4 col-md-4  mb-3'>
        <div className='cflex gap-1'>
+                    <div className='ic_bg3'>
                     <i class="fa-solid fa-globe ic5"></i>
+                    </div>
                     <div className='block'>
                     <p className='black5'>OPERATING IN OVER</p>
                     <h6 className='black_countries'>4 Countries</h6>

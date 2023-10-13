@@ -49,7 +49,9 @@ export class Payersolution extends Component {
         <div className='row gx-0'>
             <div className='col-lg-4 col-md-6'>
                 <div className='claims_icon'>
+                    <div className='ic_bg'>
                   <i class="fa-solid fa-file-lines claim_ic"></i> 
+                    </div>
                    <div className='claims_number'>
                     <p className='claims_p'>No of processsed Claims</p>
                     <h3 className='number_heading'>5 M +</h3>
@@ -59,7 +61,9 @@ export class Payersolution extends Component {
             
             <div className='col-lg-4 col-md-6'>
                 <div className='claims_icon'>
+                  <div className='ic_bg2'>
                    <i class="fa-solid fa-money-bill-1 claim_ic"></i>
+                   </div>
                    <div className='claims_number'>
                     <p className='claims_p'>Amount of processsed Claims</p>
                     <h3 className='number_heading'>100 M +</h3>
