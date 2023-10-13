@@ -124,7 +124,7 @@ body {
 .section{
   background-color: #0180C3;
   padding-top: 30px;
-  padding-bottom: 0px;
+  /* height: 500px; */
 }
 .section2{
   background-image: linear-gradient(#0081C3, rgb(4, 4, 105) 98% );
@@ -420,15 +420,15 @@ header .toggle{
   border-radius: 5px;
 }
 .icbg {
-  width: 49px; /* Adjust the width and height as needed */
-  height: 52px;
-  display: flex;
+  width: 40px; /* Adjust the width and height as needed */
+  height: 40px;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   background-color: #CFE1FC;
   border-radius: 5px;
   overflow: hidden;
-  display:  inline;
+  /* display:  inline; */
   margin-right: 10px;
 }
 .ic_bg3{
@@ -438,6 +438,25 @@ header .toggle{
     border-radius: 5px;
     height: 50px;
     width: 55px;
+}
+.core_icon{
+  display: flex;
+}
+.fa-lightbulb {
+  padding-left: 7px;
+  padding-top: 3px;
+}
+.fa-user-shield{
+  padding-left: 1px;
+  padding-top: 3px;
+}
+.fa-thumbs-up{
+  padding-left: 5px;
+  padding-top: 3px;
+}
+.fa-helmet-safety{
+  padding-left: 3px;
+  padding-top: 3px;
 }
 .fa-user-group{
   padding-top: 4px;
@@ -565,7 +584,7 @@ header .toggle{
   display: inline;
 }
 .mission_vission{
-  background-color: white;
+  background-color: #F1F3F6;
   color: #0081C3;
   height: 520px;
 }
@@ -584,6 +603,7 @@ header .toggle{
   font-weight:4000px ;
   padding-top: 0px;
   margin-left:50px ;
+  margin-right:90px;
   color: #515151;
 }
 .h_vission{
@@ -612,6 +632,7 @@ header .toggle{
   width: 100%;
   height:100%;
   object-fit:cover;
+  object-position: top;
 }
 .profile_margin{
   margin-left: 40px;
@@ -626,10 +647,16 @@ header .toggle{
   height: 450px;
   align-items: center;
   justify-content: center;
-  object-fit:top;
+  /* object-fit:top; */
 }
 .layout{
   display: inline-flex;
+}
+.feature_txt{
+  color: black;
+  padding-top: 9px;
+
+
 }
 .right_img3{
   position:absolute;
@@ -753,6 +780,7 @@ header .toggle{
     .spon_div{
       background-color: white;
       /* height: 90px; */
+      width:387px;
     }
     .sponsor_img{
      align-items: center;
@@ -797,13 +825,24 @@ header .toggle{
     padding-left: 20px;
     height: 400px;
 }
+.right_img9  {
+  position:absolute;
+  height: 115px;
+  width: 179px;
+  top: -17px;
+  /* bottom: -250px; */
+  right: -31px;
+  object-fit: contain;
+
+}
 .right_img99 {
   position: absolute;
   height: 100px;
   width: 179px;
-  bottom: -340px;
+  bottom: -600px;
   left: 250px;
   object-fit: contain;
+  display: none;
 }
 
 .right_img98{

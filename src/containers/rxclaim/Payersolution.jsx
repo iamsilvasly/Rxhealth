@@ -223,16 +223,16 @@ export class Payersolution extends Component {
                         <div className='col-lg-12'><h3>Benefits of Rx Claim <br></br>as a Service product</h3></div>
                     </div>
                     <div className='row gx-0'>
-                        <div className='col-lg-4'><h6 className='point'> <i class="fa-solid fa-dice-three icon"></i>Simplicity</h6></div>
-                        <div className='col-lg-4'><h6 className='point'> <i class="fa-solid fa-bell icon"></i> Notification</h6></div>
+                        <div className='col-lg-4'><div className='claims_icon2'><div className='feat_ic'><i class="fa-solid fa-dice-three icon"></i></div><h6 className='point'>Simplicity</h6></div></div>
+                        <div className='col-lg-4'><div className='claims_icon2'><div className='feat_ic'><i class="fa-solid fa-bell icon"></i></div><h6 className='point'> Notification</h6></div></div>
                     </div>
                     <div className='row gx-0'>
-                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-lock icon"></i> Security</h6></div>
-                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-qrcode icon"></i>  Access</h6></div>
+                        <div className='col-lg-4'><div className='claims_icon2'><div className='feat_ic'><i class="fa-solid fa-lock icon"></i></div><h6 className='point'>Security</h6></div></div>
+                        <div className='col-lg-4'><div className='claims_icon2'><div className='feat_ic'><i class="fa-solid fa-qrcode icon"></i></div><h6 className='point'>Access</h6></div></div>
                     </div>
                     <div className='row gx-0'>
-                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-clock-rotate-left icon"></i> Real-Time</h6></div>
-                        <div className='col-lg-4'><h6 className='point'><i class="fa-solid fa-infinity icon"></i>Interoperability</h6></div>
+                        <div className='col-lg-4'><div className='claims_icon2'><div className='feat_ic'><i class="fa-solid fa-clock-rotate-left icon"></i></div><h6 className='point'> Real-Time</h6></div></div>
+                        <div className='col-lg-4'><div className='claims_icon2'><div className='feat_ic'><i class="fa-solid fa-infinity icon"></i></div><h6 className='point'>Interoperability</h6></div></div>
                     </div>
                     <button className='learn_btn3'>Request Demo</button>
                 </div>

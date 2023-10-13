@@ -9,6 +9,7 @@ import './Navbar.css';
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [solutionsDropdown, setSolutionsDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -51,14 +52,14 @@ return (
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
-              to='/solutions'
+            <span
+             
               className='nav-links'
-              onClick={closeMobileMenu}
+              onClick={() => setSolutionsDropdown(!solutionsDropdown)}
             >
               Solution<i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <Dropdown/>}
+              </span>
+             { solutionsDropdown && <Dropdown/>}
           </li>
           <li className='nav-item'>
             <Link
@@ -91,6 +92,10 @@ return (
         </ul>
         
       </nav>
+
+      
+      
+
     </div>
   )
 }

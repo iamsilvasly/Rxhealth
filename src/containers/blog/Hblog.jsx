@@ -44,18 +44,13 @@ export class Hblog extends Component {
             <div className='row'>
                 <div className='col-lg-4 col-sm-12'>
                     <div className='inline2'>
-                   <div className='dis_bg'>
-                      <p className='le_blue'>All</p>
-                    </div>
-                    <div className='dis_bg'>
-                      <p className='le_blue'>Health</p>
-                    </div>
-                    <div className='dis_bg'>
-                      <p className='le_blue'>Tech</p>
-                    </div>
-                    <div className='dis_bg'>
-                      <p className='le_blue'>People</p>
-                    </div>
+                    <button className='dis_bg3' >All</button>
+
+                    <button className='dis_bg' >Health</button>
+
+                    <button className='dis_bg' >Tech</button>
+
+                    <button className='dis_bg' >People</button>
                     </div>
                 </div>
                 <div className='col-lg-7 col-sm-12'>

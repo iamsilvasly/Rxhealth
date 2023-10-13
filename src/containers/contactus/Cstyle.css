@@ -43,9 +43,9 @@
 }
 .right_img2{
     position:absolute;
-    height: 870px;
+    height: 270px;
     width: 179px;
-    top: -400px;
+    top: -100px;
     bottom: -250px;
     right: 5px;
     object-fit: contain;
