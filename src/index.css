@@ -329,8 +329,8 @@ header .toggle{
   height: 640px;
   width: 940px;
   margin-bottom: 90px;
-  margin-left: 150px;
-  
+  margin-left:200px;
+ 
 }
 .solution_card1{
   color: white;
@@ -555,7 +555,7 @@ header .toggle{
   display:block;
 }
 .cflex{
-   display: inline-flex;
+   display: flex;
  /* align-items: center; */
 }
 .ic2{
@@ -683,8 +683,8 @@ header .toggle{
   height: 100px;
   width: 179px;
   /* top: 840px; */
-  bottom: -370px;
-  left: 300px;
+  bottom: -310px;
+  left: 350px;
   object-fit: contain;
 }
 .right_img98{
@@ -692,7 +692,7 @@ header .toggle{
   height: 100px;
   width: 179px;
   top: 860px;
-  left: 630px;
+  left: 670px;
   object-fit: contain;
 }
 .right_img97{
@@ -700,7 +700,7 @@ header .toggle{
   height: 100px;
   width: 129px;
   top: 860px;
-  left: 960px;
+  left: 998px;
 }
 .right_img96{
   display: none;
@@ -710,6 +710,7 @@ header .toggle{
 
   
 @media screen and (max-width: 900px) and (min-width: 305px){
+
 .row{
   padding-left: 0px;
 }
@@ -727,6 +728,12 @@ header .toggle{
   header .toggle{
     display: block;
   }
+  .learn_btn2{
+    display: block;
+  }
+  .learn_btn{
+    display: block;
+  }
   .solution_box{
     margin-left: 0px;
     width:auto;
@@ -735,15 +742,13 @@ header .toggle{
   }
   .solution_tittle{
     padding-top: 240px;
-    padding-right: 50px;
+    padding-right:20px;
   }
    .Besf_sec2{
       margin-left: 70px;
       padding-top: 20px;
     }
-    .solution_tittle{
-      padding-top: 380px;
-    }
+  
   
     .core_points{
       padding-bottom: 200px;
@@ -751,9 +756,7 @@ header .toggle{
     .sponsor_space{
       padding-left: 10px;
     }
-    .sponsor_img{
-      width: 375px;
-    }
+  
     .vector{
       /* display: none; */
       height:200px ;
@@ -858,18 +861,44 @@ header .toggle{
 
 }
 
-@media screen and (max-width: 9000px) and (min-width: 820px){
+@media screen and (max-width: 1400px) and (min-width: 720px){
   .solution_tittle {
     padding-top: 80px;
 }
   .solution_box{
         padding-bottom: 0px;
     /* padding-bottom:1430px; */
+    margin-left:20px;
+ 
   }
+  .sponsor_img{
+     width: 820px;
+     height: 100%;
+    
+   }
   .container3 {
     padding-top: 10px;
     padding-bottom: 90px;
     padding-left: 75px;
     padding-right: 50px;
+}
+.right_img99 {
+  position: absolute;
+  height: 100px;
+  width: 179px;
+  bottom: -600px;
+  left: 250px;
+  object-fit: contain;
+  display: none;
+}
+
+.right_img98{
+ display: none;
+}
+.right_img97{
+  display: none;
+}
+.right_img96{
+  display: none;
 }
 }

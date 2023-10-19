@@ -47,12 +47,14 @@ export class Abouthero extends Component {
         <div className='row gx-0'>
           <div className='col-lg-6 col-sm-12'>
             <div className='mission_vission2'>
+             {/* <div className='m-2'>  */}
               <h3>Message From Management</h3>
               <p className='pfont'>At RX Health our goal is to make every solution as relevant and <br/> real world relatable as possible.
               Please feel free to browse<br/>  through our wide range of solutions on offer and we are sure you<br/>  will find something that suits your needs. If you can’t find <br/> something that suits your needs don’t worry.<br/><br/>
               Send me an email: emefa@rxhealthinfosystems.com and we <br/>  shall find a solution that works hand in hand with you.</p>
            <p>Signed</p>
            <p><i>Gertrude Emefa Badoe</i></p>
+            {/* </div> */}
             </div>
           </div>
           <div className='col-lg-6 col-sm-12'>

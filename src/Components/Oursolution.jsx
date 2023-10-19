@@ -10,7 +10,7 @@ export default function Oursolution() {
             </div>
         </div>
         
-         <div className='solution_box  '>
+         <div className='solution_box justify-content-center'>
             <div className='row gx-0 '>
                 <div className='col-md-4 col-sm-12'>
                     <div className='solution_card1'>

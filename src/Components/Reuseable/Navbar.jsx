@@ -55,11 +55,19 @@ return (
             <span
              
               className='nav-links'
-              onClick={() => setSolutionsDropdown(!solutionsDropdown)}
+              onMouseOver={() => setSolutionsDropdown(!solutionsDropdown)}
+              // onMouseMove={() => setSolutionsDropdown(!solutionsDropdown)}
+              // onMouseOut={() => setSolutionsDropdown(!solutionsDropdown)}
+              
             >
-              Solution<i className='fas fa-caret-down' />
+              Solution  <i className='fas fa-caret-down' />
               </span>
-             { solutionsDropdown && <Dropdown/>}
+              <div 
+           
+              onMouseLeave={() => setSolutionsDropdown(!solutionsDropdown)}
+              >
+             { solutionsDropdown && <Dropdown /> }
+              </div>
           </li>
           <li className='nav-item'>
             <Link

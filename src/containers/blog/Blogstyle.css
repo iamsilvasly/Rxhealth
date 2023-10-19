@@ -100,6 +100,11 @@
 }
 
 @media screen and (max-width: 900px){
+    .watch_img{
+        width: 95%;
+        height: 80%;
+        /* object-fit: cover; */
+    }
     .container22{
         padding-left: 10px;
         padding-right: 10px;
@@ -118,6 +123,7 @@
     .Numbs{
         margin-left:10px ;
         margin-right: 10px;
+        display: flex;
     }
     .inline2{
         padding-left:10px;
@@ -169,6 +175,11 @@
         padding-left: 250px;
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .Numbs{
+        margin-left:10px ;
+        margin-right: 10px;
+        display: flex;
     }
 
 }
