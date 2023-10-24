@@ -42,13 +42,13 @@
     margin-left: 260px;
     padding-top: 20px;
 }
-.right_img2{
+.right_img2new{
     position:absolute;
     height: 270px;
     width: 179px;
     top: -100px;
     bottom: -250px;
-    right: 5px;
+    right: -65px;
     object-fit: contain;
 }
 .fa-location-dot{

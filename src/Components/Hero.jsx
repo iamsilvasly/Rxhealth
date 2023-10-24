@@ -43,18 +43,22 @@ export default function Hero() {
                         
                         
                         <div className='col-lg4 col-md-4  mb-3'>
-                          <div className='cflex gap-1'>
-                          <div className='ic_bg3'>
-                          <i class="fa-regular fa-building ic5"></i>
-                          </div>
-                               <div className='block'>
-                                <p className='black5'>And Used By Over</p>
+                          <div className='hflex'>
+                               <div className='ic_bg3'>
+                                <i class="fa-regular fa-building ic5"></i>
+                               </div>
+                               <div className='hblock'>
+                               <p className='black5'>And Used By Over</p><br></br>
                                 <h6 className='black_health'>1000 Health Facilities</h6>
                                </div>
-                              <div className='block'>
-                            </div>
-                          </div>
+                         
+                     
+                         
+                              
+                                
+                               
                         </div>
+                      </div>
                         
        <div className='col-lg-4 col-md-4  mb-3'>
        <div className='cflex gap-1'>

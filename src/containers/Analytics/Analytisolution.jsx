@@ -10,7 +10,7 @@ export class Analytisolution extends Component {
         <div className='row gx-0'>
             <div className='col-lg-7'>
                 <div className='payer_desc'>
-                    <h3 className='white'>CUSTOMER MANAGEMENT<br></br> SOLUTION</h3>
+                    <h3 className='white'>INSIGTH & ANALYTIC<br></br> SOLUTION</h3>
                     <p className='white'>We provide electronic solutions that allow all types of payers (health<br></br> insurance, TPAs, 
                     corporate bodies, donors) to reduce fraud and <br></br>
                     wastage  Also improving healthcare access, transparency and<br></br> sustainability.</p>

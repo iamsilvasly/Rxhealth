@@ -108,7 +108,7 @@ export class Details extends Component {
                              <button type="submit" class="btn btn-primary my-">Send</button>
                              
                              <div className='right'>
-                                <img src={right}  alt="React" className='right_img2'></img>
+                                <img src={right}  alt="React" className='right_img2new'></img>
                             </div>
                             </div>
 

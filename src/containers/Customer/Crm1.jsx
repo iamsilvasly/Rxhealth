@@ -12,7 +12,7 @@ export class Crm1 extends Component {
   render() {
     return (
       <div>
-                <div className='row gx-0'>
+            <div className='row gx-0'>
             <div className='col-lg-7'>
                 <div className='payer_desc'>
                     <h3 className='white'>CUSTOMER MANAGEMENT<br></br> SOLUTION</h3>

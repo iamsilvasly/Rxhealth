@@ -29,8 +29,8 @@ function App() {
           <Route path="/patient" element={<Patient/>}/>
           <Route path="/provider" element={<Provider/>}/>
           <Route path="/crm" element={<Crm/>}/>
-          <Route path="/insigth" element={<Insigth/>}/>
-          <Route path="/developerer" element={<Developer/>}/>
+          <Route path="/insight" element={<Insigth/>}/>
+          <Route path="/developer" element={<Developer/>}/>
     </Routes>
    
     {/* <Footer/> */}

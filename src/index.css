@@ -373,12 +373,18 @@ header .toggle{
 .black{
   color: black;
 }
+.hflex{
+  display: flex;
+}
+.hblock{
+  display: block;
+}
 .black_client{
   color: black;
  margin-right: 50px;
 }
 .black_health{
-  padding-left: 10px;
+  padding-left: 12px;
   color: black;
 }
 .black_countries{
@@ -682,8 +688,8 @@ header .toggle{
   position:absolute;
   height: 100px;
   width: 179px;
-  /* top: 840px; */
-  bottom: -310px;
+  top: 950px;
+  /* bottom: 20px; */
   left: 350px;
   object-fit: contain;
 }
@@ -691,7 +697,7 @@ header .toggle{
   position:absolute;
   height: 100px;
   width: 179px;
-  top: 860px;
+  top: 955px;
   left: 670px;
   object-fit: contain;
 }
@@ -699,7 +705,7 @@ header .toggle{
   position:absolute;
   height: 100px;
   width: 129px;
-  top: 860px;
+  top: 955px;
   left: 998px;
 }
 .right_img96{
@@ -754,7 +760,7 @@ header .toggle{
       padding-bottom: 200px;
     }
     .sponsor_space{
-      padding-left: 10px;
+      padding-left: -9px;
     }
   
     .vector{
@@ -771,6 +777,7 @@ header .toggle{
       bottom: 710px;
       top: 20px;
     }
+  
     .Besf_sec{
       margin-left: 0px;
       width: 365px;
@@ -830,11 +837,11 @@ header .toggle{
 }
 .right_img9  {
   position:absolute;
-  height: 115px;
-  width: 179px;
-  top: -17px;
+  height: 108px;
+  width: 73px;
+  top: -25px;
   /* bottom: -250px; */
-  right: -31px;
+  right: 7px;
   object-fit: contain;
 
 }
@@ -857,30 +864,50 @@ header .toggle{
 .right_img96{
   display: none;
 }
+/*  */
 
 
 }
 
-@media screen and (max-width: 1400px) and (min-width: 720px){
+@media screen and (max-width: 1100px) and (min-width: 720px){
   .solution_tittle {
     padding-top: 80px;
+}
+.right_img9 {
+  display: none;
+}
+
+.Besf_sec {
+  width: 399px;
 }
   .solution_box{
         padding-bottom: 0px;
     /* padding-bottom:1430px; */
-    margin-left:20px;
+    margin-left:30px;
  
   }
   .sponsor_img{
-     width: 820px;
+     width: 690px;
      height: 100%;
     
+   }
+   .Trusted_div {
+    /* width: 800px; */
+   }
+   .spon_div {
+    width:fit-content;
    }
   .container3 {
     padding-top: 10px;
     padding-bottom: 90px;
-    padding-left: 75px;
+    padding-left: 80px;
     padding-right: 50px;
+}
+.container33 {
+  padding-top: 10px;
+  padding-bottom: 90px;
+  padding-left: 145px;
+  padding-right: 60px;
 }
 .right_img99 {
   position: absolute;
