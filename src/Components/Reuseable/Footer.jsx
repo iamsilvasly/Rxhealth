@@ -14,34 +14,34 @@ function Footer() {
                 <div className="col-lg-2 col-sm-6">
                    <h6 className="footer_Tittle">Legal</h6>
                    <ul>
-                    <li>Terms & Conditions</li>
-                    <li>Privacy Policy</li>
+                    <li className='unorderlist'>Terms & Conditions</li>
+                    <li className='unorderlist'>Privacy Policy</li>
                     
                    </ul>
                 </div>   
                 <div className="col-lg-2 col-sm-6">
                    <h6 className="footer_Tittle"> Useful Links</h6>
                    <ul>
-                    <li>Contact</li>
-                    <li>Health Blog</li>
-                    <li>Request Demo</li>
+                    <li className='unorderlist'>Contact</li>
+                    <li className='unorderlist'>Health Blog</li>
+                    <li className='unorderlist'> Request Demo</li>
                    </ul>
                 </div>
                 <div className="col-lg-2 col-sm-6">
                    <h6 className="footer_Tittle"> Get In Touch</h6>
                    <ul>
-                    <li>Haasto- Westland</li>
-                    <li>030 123 4567</li>
-                    <li>support@rx.com</li>
-                    <li>Rxhealthinfosystem.com</li>
+                    <li className='unorderlist'>Haasto- Westland</li>
+                    <li className='unorderlist'>030 123 4567</li>
+                    <li className='unorderlist'>support@rx.com</li>
+                    <li className='unorderlist'>Rxhealthinfosystem.com</li>
                    </ul>
                 </div>
                 <div className="col-lg-4 col-sm-5 col-md-12 ">
                    <h6 className="footer_Tittle"><i class="fa-regular fa-paper-plane"></i> Subscribe to our Newsletter</h6>
-                   <input type='text' placeholder='Enter your email address'  class="form-control"></input>
+                   <input type='text' placeholder='Enter your email address'  class="form-controlfooter"></input>
                    <br/>
                    <br/>
-                   <button className='learn_btn2'>Subscribe</button>
+                   <button className='learn_btn22'>Subscribe</button>
                 </div>
 
             </div>

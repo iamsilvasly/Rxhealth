@@ -36,11 +36,13 @@ export class Payersolution extends Component {
         <div className='container8'>
           <div className='row'>
             <div className='col-lg-12'>
+            <div className='dis_div'>
             <div className='dis_bg2'>
                       <p className='le_blue'>The RxClaims is Africa’s largest online to offline system which 
                       is perfectly suited for many parts of the emerging world with unstable internet
                       connectivity</p>
                     </div>
+                    </div>       
             </div>
          </div>
         </div>
@@ -215,7 +217,7 @@ export class Payersolution extends Component {
         <div className='row gx-0'>
             <div className='col-lg-5'>
                 <div className='image'></div>
-                <img src={swipe} alt="React" className='feature_pic'></img>
+                <img src={swipe} alt="React" className='feature_pic2'></img>
             </div>
             <div className='col-lg-7'>
                 <div className='benfit_sec'>

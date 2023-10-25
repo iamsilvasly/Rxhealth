@@ -204,3 +204,17 @@
     }
 
 }
+/* Medium Laptop Screens */
+@media screen and (max-width: 1100px) and (min-width: 720px){
+
+    .icon_div {
+        padding-left: 476px;
+        padding-top: 20px;
+    }
+    .Page_section{
+        margin-left: 319px;
+    }
+    .right_img {
+        left: 808px;
+        }
+}

@@ -88,6 +88,24 @@ body {
   background-color:white;
   transition: 0.4 ease-out;
 }
+.learn_btn22{
+  border-radius: 28px ;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: none;
+  border:solid white;
+  color:white;
+  background-color: transparent;
+  border-color: white;
+  padding: 2px 17px;
+  font-size: 15px;
+  border: 2px solid;
+}
+.learn_btn22:hover{
+  color: #0180c3;
+  background-color:white;
+  transition: 0.4 ease-out;
+}
 .learn_btn3{
   color: #0081C3;
   font-size: 13px;
@@ -202,6 +220,14 @@ h6{
   border-radius: 4px;
   border: 1px solid #0180C3 ;
 }
+.form-controlfooter{
+  display: inline;
+  width: 250px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #0180C3 ;
+}
+
 .move{
   margin-left: 25%;
 }
@@ -743,7 +769,7 @@ header .toggle{
   .solution_box{
     margin-left: 0px;
     width:auto;
-    border-radius: 20px;
+    border-radius: 0px;
     padding-bottom: 1980px;
   }
   .solution_tittle{
@@ -779,8 +805,8 @@ header .toggle{
     }
   
     .Besf_sec{
-      margin-left: 0px;
-      width: 365px;
+      margin-left: -17px;
+      width: 380px;
     }
     .besf_sec2{
       margin-top: 140px;
@@ -800,8 +826,13 @@ header .toggle{
       height: 100%;
      
     }
-    .solution_card4 .solution_card6{
-      width:0px;
+    .solution_card4 {
+      
+      border-radius: 0px;
+    }
+    
+    .solution_card6{
+      
       border-radius: 0px;
     }
     .profile_img{
@@ -817,6 +848,7 @@ header .toggle{
     }
     .mission_vission2{
       padding-left: 10px;
+      height: 645px;
     }
     .missionfont {
       margin-left: 10px;
@@ -828,8 +860,12 @@ header .toggle{
       margin-left: 10px;
     }
    .profile_margin {
-      margin-left: 12px;
+      margin-left: 0px;
+      padding: 8px;
       margin-bottom: 50px;
+  }
+  .profile{
+    height: 578px;
   }
   .abu_sec {
     padding-left: 20px;
@@ -865,7 +901,45 @@ header .toggle{
   display: none;
 }
 /*  */
+.section2{
+   /* padding-left: 100px; */
+  
+}
+.footer_Tittle{
+  display:flex;
+  align-items: center;
+  justify-content: center;
 
+  /* padding-left: 30px; */
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+.unorderlist{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright{
+  padding-left: 10px;
+}
+.logo{
+margin-left: 130px;
+}
+.learn_btn22{
+  margin-left: 110px;
+  display: block;
+}
+.form-controlfooter{
+  width: 75%;
+  margin-left: 54px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 38px;
+
+}
+.core_icon {
+  padding-top: 16px;
+}
 
 }
 
@@ -897,11 +971,26 @@ header .toggle{
    .spon_div {
     width:fit-content;
    }
+   .profile_img{
+    height: 125%;
+   }
+   .profile{
+    height: 560px;
+   }
+   .mission_vission2{
+    height: 605px;
+   }
   .container3 {
-    padding-top: 10px;
-    padding-bottom: 90px;
-    padding-left: 80px;
-    padding-right: 50px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 90px; */
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 40px;
+}
+.feature_txt {
+  color: black;
+  padding-top: 10px;
+  font-size: 16px;
 }
 .container33 {
   padding-top: 10px;
