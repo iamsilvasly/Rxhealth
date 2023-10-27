@@ -36,10 +36,12 @@ export class Healthker extends Component {
         <div className='container8'>
           <div className='row'>
             <div className='col-lg-12'>
+            <div className='dis_div'>
             <div className='dis_bg2'>
                       <p className='le_blue'>The RxClaims is Africa’s largest online to offline system which 
                       is perfectly suited for many parts of the emerging world with unstable internet
                       connectivity</p>
+                    </div>
                     </div>
             </div>
          </div>
@@ -78,7 +80,7 @@ export class Healthker extends Component {
             <div className='col-lg-12'><h3 className='heading_tittle'>Features of <span className='heading_span'>Rx Claim </span></h3></div>
         </div>
         
-        
+        <div className='container'>
         <div className='row gx-0'>
             <div className='col-lg-6'>
                 <div className='Feature_img'>
@@ -91,13 +93,15 @@ export class Healthker extends Component {
                       <p className='le_blue'>Simplicity</p>
                     </div>
                     <h5 className='heading'>Enrollment</h5>
-                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
-                    upload of members and single member registration)Member<br></br> management (Status,
-                     Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,Bulk Excel
+                    upload of members and single  member registration)Member management (Status,
+                     Benefit options, Policy Expiries), Pricing and Reporting.</p>
                 </div>
             </div>
         </div>
+        </div>
 
+        <div className='container'>
         <div className='row gx-0'>
         <div className='col-lg-6'>
                 <div className='feature_dis'>
@@ -105,9 +109,9 @@ export class Healthker extends Component {
                       <p className='le_blue'>Real-Time</p>
                     </div>
                     <h5 className='heading'>Policy Management</h5>
-                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
-                    upload of members and single member registration)Member<br></br> management (Status,
-                     Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,Bulk Excel
+                    upload of members and single  member registration)Member management (Status,
+                     Benefit options, Policy Expiries), Pricing and Reporting.</p>
                 </div>
                 <div className='right'>
                                 <img src={claimsright}  alt="React" className='right_img4'></img>
@@ -119,10 +123,11 @@ export class Healthker extends Component {
                 </div>
             </div>
         </div>
+        </div>
          
 
 
-        
+        <div className='container'>
         <div className='row gx-0'>
             <div className='col-lg-6'>
                 <div className='Feature_img'>
@@ -135,14 +140,15 @@ export class Healthker extends Component {
                       <p className='le_blue'>Security</p>
                     </div>
                     <h5  className='heading'>Risk, Benefits & Pricing</h5>
-                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
-                    upload of members and single member registration)Member<br></br> management (Status,
-                     Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
-                </div>
-                
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,Bulk Excel
+                    upload of members and single  member registration)Member management (Status,
+                     Benefit options, Policy Expiries), Pricing and Reporting.</p>
+                </div>  
             </div>
         </div>
+        </div>
 
+        <div className='container'>
         <div className='row gx-0'>
         <div className='col-lg-6'>
                 <div className='feature_dis'>
@@ -150,9 +156,9 @@ export class Healthker extends Component {
                       <p className='le_blue' >Interoperability</p>
                     </div>
                     <h5 className='heading'>Claims Management</h5>
-                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
-                    upload of members and single member registration)Member<br></br> management (Status,
-                     Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,Bulk Excel
+                    upload of members and single  member registration)Member management (Status,
+                     Benefit options, Policy Expiries), Pricing and Reporting.</p>
                 </div>
                 <div className='right'>
                                 <img src={claimsright}  alt="React" className='right_img4'></img>
@@ -163,12 +169,11 @@ export class Healthker extends Component {
                 <img src={claim} alt="React" className='feature_pic'></img>
                 </div>
             </div>
-            
+        </div>
         </div>
 
 
-
-
+        <div className='container'>
         <div className='row gx-0'>
             <div className='col-lg-6'>
                 <div className='Feature_img'>
@@ -181,15 +186,15 @@ export class Healthker extends Component {
                       <p className='le_blue'>Notification</p>
                     </div>
                     <h5 className='heading'>Payer Management</h5>
-                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members<br></br>, Bulk Excel
-                    upload of members and single member registration)Member<br></br> management (Status,
-                     Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
-               
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,Bulk Excel
+                    upload of members and single  member registration)Member management (Status,
+                     Benefit options, Policy Expiries), Pricing and Reporting.</p>
                 </div>
                 <div className='right'>
                                 <img src={claimsright}  alt="React" className='right_img4'></img>
                </div>
             </div>
+        </div>
         </div>
 
         <div className='row gx-0'>
@@ -199,9 +204,9 @@ export class Healthker extends Component {
                       <p className='le_blue'>Access</p>
                     </div>
                     <h5 className='heading'>Patient Interaction</h5>
-                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,<br></br> Bulk Excel
-                    upload of members and single member registration)Member<br></br> management (Status,
-                     Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
+                    <p className='pfont2'>Electronic Member Enrolment (Online registration of members,Bulk Excel
+                    upload of members and single  member registration)Member management (Status,
+                     Benefit options, Policy Expiries), Pricing and Reporting.</p>
                 </div>
             </div>
             <div className='col-lg-6'>
@@ -213,7 +218,7 @@ export class Healthker extends Component {
         </div>
 
         <div className='row gx-0'>
-            <div className='col-lg-5'>
+            <div className='col-lg-5 length'>
                 <div className='image'></div>
                 <img src={swipe} alt="React" className='feature_pic'></img>
             </div>
