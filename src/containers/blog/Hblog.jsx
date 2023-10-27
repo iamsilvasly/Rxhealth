@@ -21,7 +21,7 @@ export class Hblog extends Component {
             </div>
         </div>
 
-        <div className='container22'>
+        <div className='container'>
             <div className='row gx-0 py-4'>
                 <div className='col-lg-4 py-4'>
                     <p className='blue'>Tech <i class="fa-solid fa-circle techicon"></i></p>
@@ -40,17 +40,17 @@ export class Hblog extends Component {
         </div>
 
 
-        <div className='conainer22'>
+        <div className='container'>
             <div className='row'>
                 <div className='col-lg-4 col-sm-12'>
                     <div className='inline2'>
-                    <button className='dis_bg3' >All</button>
+                    <button className='health_btn2' >All</button>
 
-                    <button className='dis_bg' >Health</button>
+                    <button className='health_btn' >Health</button>
 
-                    <button className='dis_bg' >Tech</button>
+                    <button className='health_btn' >Tech</button>
 
-                    <button className='dis_bg' >People</button>
+                    <button className='health_btn' >People</button>
                     </div>
                 </div>
                 <div className='col-lg-7 col-sm-12'>

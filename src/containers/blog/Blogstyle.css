@@ -34,13 +34,40 @@
     height: 80%;
     /* object-fit: cover; */
 }
+.health_btn{
+background-color: #CFE1FC; /* Changing background color */
+font-weight: bold; /* Making font bold */
+border-radius: 20px; /* Making border radius */
+width: fit-content; /* Making auto-sizable width */
+height: 29px; /* Making auto-sizable height */
+padding:3px 10px 5px 10px; /* Making space around letters */
+box-shadow: none;
+border:none;
+color: #0f95d8;
+margin-right: 10px;
+}
+.health_btn2{
+    background-color: #0081C3; /* Changing background color */
+    font-weight: bold; /* Making font bold */
+    border-radius: 20px; /* Making border radius */
+    width: fit-content; /* Making auto-sizable width */
+    height: 30px; /* Making auto-sizable height */
+    padding: 5px 10px 5px 10px; /* Making space around letters */
+    box-shadow: none;
+    border:none;
+    color: #fff;
+    margin-left:10px ;
+    font-size: 13px;  
+    margin-right: 10px;
+}
+
 .inline2{
     display:flex;
-    padding-left: 60px;
+    padding-left: 0px;
     
 }
 .icon_div{
-    padding-left: 583px;
+    padding-left: 559px;
     padding-top: 20px;
 }
 .search_control{

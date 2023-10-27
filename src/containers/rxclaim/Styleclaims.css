@@ -272,6 +272,16 @@ height: 569px;
         right: -5px;
         object-fit: contain;
    }
+   .dis_div{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-left: 1px;
+    height: fit-content;
+}
+.le_blue {
+    margin-left: 9px;
+}
 }
 /* Medium Laptop Screens */
 @media screen and (max-width: 1100px) and (min-width: 720px){
