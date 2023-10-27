@@ -27,7 +27,7 @@ body {
 .container3{
   padding-top: 10px;
   padding-bottom: 90px;
-  padding-left:100px ;
+  padding-left:180px ;
   padding-right:50px;
   /* align-items: center;
   justify-content: center;
@@ -358,7 +358,7 @@ header .toggle{
   height: 640px;
   width: 940px;
   margin-bottom: 90px;
-  margin-left:210px;
+  margin-left:230px;
  
 }
 .solution_card1{

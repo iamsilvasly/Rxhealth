@@ -19,7 +19,7 @@ export class Details extends Component {
                 <div className='details_form'>
                         
                 <form>
-                            <div class="form-row">
+                            <div class="row py-2">
                                 <div class="form-group col-lg-4 col-md-4 col-sm-12">
                                 <label for="inputEmail4">Name</label>
                                 <input type="text" class="form-control2" id="inputName4" placeholder="Name"></input>
@@ -62,20 +62,20 @@ export class Details extends Component {
                             
                             <div class="form-row py-2">
                             <div class="form-check col-md-4">
-                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2"></input>
-                                    <label class="form-check-label" for="autoSizingCheck2">
+                                    <input class="form-check-input" type="checkbox" id="payersolution"></input>
+                                    <label class="form-check-label" for="payersolution">
                                     Payer Solutions
                                     </label>
                                 </div>
                                 <div class="form-check col-md-4">
-                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2"></input>
-                                    <label class="form-check-label" for="autoSizingCheck2">
+                                    <input class="form-check-input" type="checkbox" id="patientsolution"></input>
+                                    <label class="form-check-label" for="patientsolution">
                                     Patient Solution
                                     </label>
                                 </div>
                                 <div class="form-check col-md-4">
-                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2"></input>
-                                    <label class="form-check-label" for="autoSizingCheck2">
+                                    <input class="form-check-input" type="checkbox" id="providersolution"></input>
+                                    <label class="form-check-label" for="providersolution">
                                     Provider Solution
                                     </label>
                                 </div>
@@ -86,20 +86,20 @@ export class Details extends Component {
 
                              <div class="form-row">
                             <div class="form-check col-md-4">
-                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2"></input>
-                                    <label class="form-check-label" for="autoSizingCheck2">
+                                    <input class="form-check-input" type="checkbox" id="developersolution"></input>
+                                    <label class="form-check-label"  for="developersolution">
                                     Developer Solution
                                     </label>
                                 </div>
                                 <div class="form-check col-md-4">
-                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2"></input>
-                                    <label class="form-check-label" for="autoSizingCheck2">
+                                    <input class="form-check-input" type="checkbox" id="analyticsolution" ></input>
+                                    <label class="form-check-label"  for="analyticsolution">
                                     Analytic Soultion
                                     </label>
                                 </div>
                                 <div class="form-check col-md-4">
-                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2"></input>
-                                    <label class="form-check-label" for="autoSizingCheck2">
+                                    <input class="form-check-input" type="checkbox" id="crmsolution"></input>
+                                    <label class="form-check-label"  for="crmsolution" >
                                     CRM Solution
                                     </label>
                                 </div>
