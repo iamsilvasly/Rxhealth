@@ -35,6 +35,7 @@ export class Crm1 extends Component {
         <div className='container8'>
           <div className='row'>
             <div className='col-lg-12'>
+            <div className='dis_div'>
             <div className='dis_bg2'>
                       <p className='le_blue'>The RxClaims is Africa’s largest online to offline system which 
                       is perfectly suited for many parts of the emerging world with unstable internet
@@ -42,6 +43,7 @@ export class Crm1 extends Component {
                     </div>
             </div>
          </div>
+        </div>
         </div>
 
         <div className='container40'>
@@ -77,7 +79,7 @@ export class Crm1 extends Component {
             <div className='col-lg-12'><h3 className='heading_tittle'>Features of <span className='heading_span'>Rx Claim </span></h3></div>
         </div>
         
-        
+        <div className='container'>
         <div className='row gx-0'>
             <div className='col-lg-6'>
                 <div className='Feature_img'>
@@ -95,6 +97,7 @@ export class Crm1 extends Component {
                      Benefit options, Policy Expiries), Pricing and<br></br> Reporting.</p>
                 </div>
             </div>
+        </div>
         </div>
 
        
