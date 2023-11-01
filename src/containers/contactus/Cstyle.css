@@ -8,13 +8,16 @@
 .details_form{
     background-color: rgb(255, 255, 255);
     color: #0180C3;
-    padding-left: 39px;
+    padding-left: 59px;
     padding-top: 70px;
     padding-right: 70px;
     height: 480px;
 }
+.fa-phone{
+    padding-left: 3px;
+}
 .details_icon{
-    font-size: 30px;
+    font-size: 27px;
     color:#0180C3;
     height: 40px;
     width:40px;

@@ -18,13 +18,14 @@ h6{
 .payer_desc{
     background-color: #0083c3 ;
     height: 380px;
-    padding-left: 20px;
+    padding-left: 145px;
 }
 
 .white{
     color: white;
     padding-top: 30px;
     padding-bottom: 0px;
+    
    
 }
 .heading_tittle{
@@ -37,6 +38,8 @@ h6{
 .le_blue{
   color:#1E8FC9;
   font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .Feature_img{

@@ -69,6 +69,9 @@ export default function Oursolution() {
                                 allow all  types of payers</p></div>
                                 <button className='learn_btn2'>Learn More</button>
                     </div>
+                                <div className='rigth'>
+                                <img src={sil} alt="React" className='right_img95' ></img>
+                                </div>
                 </div>
                 <div className='col-md-4 col-sm-12'>
                 <div className='solution_card6'>
@@ -78,6 +81,9 @@ export default function Oursolution() {
                                 allow all  types of payers</p></div>
                                 <button className='learn_btn'>Learn More</button>
                     </div>
+                                <div className='rigth'>
+                                <img src={sil} alt="React" className='right_img94' ></img>
+                                </div>
                 </div>
             </div>
          </div>
