@@ -34,11 +34,12 @@ export class Abouthero extends Component {
         </div>
         <div className='container3'>
         <div className='row'>
-          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-lightbulb ic "></i></div><h5 className='feature_txt'>Innovative</h5></div></div>
-          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'> <i class="fa-solid fa-user-group ic"></i></div><h5 className='feature_txt'>Team Work</h5></div></div>
-          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-thumbs-up ic "></i></div><h5 className='feature_txt'>Integrity</h5></div></div>
-          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-user-shield ic"></i></div><h5 className='feature_txt'>Discipline</h5></div></div>
-          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-helmet-safety ic"></i></div><h5 className='feature_txt'>Hard Work</h5></div></div>
+          {/* <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-dice-three icon"></i></div><h5 className='feature_txt'>Simplicity</h5></div></div> */}
+          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-lightbulb ic "></i></div><h6 className='feature_txt'>Innovative</h6></div></div>
+          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'> <i class="fa-solid fa-user-group ic"></i></div><h6 className='feature_txt'>Team Work</h6></div></div>
+          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-thumbs-up ic "></i></div><h6 className='feature_txt'>Integrity</h6></div></div>
+          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-user-shield ic"></i></div><h6 className='feature_txt'>Discipline</h6></div></div>
+          <div className='col-lg-2 col-md-6'><div className='core_icon'><div className='icbg'><i class="fa-solid fa-helmet-safety ic"></i></div><h6 className='feature_txt'>Hard Work</h6></div></div>
           </div>
         </div>
 

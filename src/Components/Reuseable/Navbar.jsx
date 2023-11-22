@@ -15,7 +15,7 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 60) {
       setDropdown(false);
     } else {
       setDropdown(true);
@@ -23,7 +23,7 @@ function Navbar() {
   };
 
   const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
+    if (window.innerWidth < 860) {
       setDropdown(false);
     } else {
       setDropdown(false);
@@ -56,7 +56,9 @@ return (
             <span
              
               className='nav-links'
-              onMouseOver={() => setSolutionsDropdown(!solutionsDropdown)}
+              onMouseEnter={() => setSolutionsDropdown(!solutionsDropdown)}
+              onMouseLeave={() => setSolutionsDropdown(solutionsDropdown)}
+              // onMouseOver={() => setSolutionsDropdown(!solutionsDropdown)}
               // onMouseMove={() => setSolutionsDropdown(!solutionsDropdown)}
               // onMouseOut={() => setSolutionsDropdown(!solutionsDropdown)}
               

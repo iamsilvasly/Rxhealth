@@ -27,7 +27,7 @@ body {
 .container3{
   padding-top: 10px;
   padding-bottom: 90px;
-  padding-left:180px ;
+  padding-left:160px ;
   padding-right:50px;
   /* align-items: center;
   justify-content: center;
@@ -691,7 +691,7 @@ header .toggle{
   color: black;
   padding-top: 9px;
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 18px;
 
 
 }
@@ -1017,7 +1017,12 @@ margin-left: 130px;
 .feature_txt {
   color: black;
   padding-top: 10px;
-  font-size: 13px;
+  font-size: 15px;
+ /* font-weight: bold; */
+}
+.container3{
+  padding-right: 0px;
+  padding-left: 8px;
 }
 .container33 {
   padding-top: 10px;

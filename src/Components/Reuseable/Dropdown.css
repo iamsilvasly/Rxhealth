@@ -19,9 +19,10 @@
   
   .dropdown-menu li:hover {
     background: #5cabff;
+    cursor: pointer;
   }
   
-  .dropdown-menu.clicked {
+ .dropdown-menu .clicked{
     display: none;
   }
   
