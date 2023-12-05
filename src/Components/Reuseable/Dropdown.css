@@ -4,7 +4,7 @@
   width: 200px;
   position: absolute;
   top: 52px;
-  left: 590px;
+  left: 580px;
   /* right: 80px; */
   list-style: none;
   text-align: start;
@@ -22,7 +22,7 @@
     cursor: pointer;
   }
   
- .dropdown-menu .clicked{
+ .dropdown-menu.clicked{
     display: none;
   }
   
@@ -64,6 +64,6 @@
   }
   @media screen and (max-width: 1100px) and (min-width: 720px){
     .dropdown-menu {
-    left: 268px;
+    left: 270px;
     }
   }
